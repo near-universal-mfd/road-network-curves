@@ -1,0 +1,56 @@
+feature,LASSO,RF,Spearman,ElasticNet,count_methods
+GDP (Million US$),0,1,1,1,3
+kept_prop_classes,0,1,1,1,3
+link_Access_destination,0,1,1,1,3
+link_Class_trunk,0,1,1,1,3
+link_LinkLength_max,0,1,1,1,3
+link_Tunnel_frac,0,1,1,1,3
+link_avg_detector_pos_std,0,1,1,1,3
+link_num_detectors_max,0,1,1,1,3
+Pop Density (ppkm2),0,1,1,0,2
+link_Access_yes,0,1,0,1,2
+link_Class_secondary,0,1,1,0,2
+link_Curvature_std,0,1,0,1,2
+link_Lanes_min,0,1,0,1,2
+link_Roundabout_frac,0,1,0,1,2
+link_SpeedLimit_max,0,1,0,1,2
+link_SpeedLimit_missing_frac,0,0,1,1,2
+node_01_day_st_std,0,1,0,1,2
+node_03_night_st_std,0,1,0,1,2
+node_08_precip_min,0,1,0,1,2
+node_12_day_st_std,0,0,1,1,2
+node_savannas_min,0,1,0,1,2
+Density (ppl/km^2),0,1,0,0,1
+Employment Rate (%),0,1,0,0,1
+cropland_natural_vegetation_mosaic,0,1,0,0,1
+link_Access_agricultural,0,0,0,1,1
+link_Access_bus,0,1,0,0,1
+link_Access_customers,0,0,0,1,1
+link_Access_designated,0,1,0,0,1
+link_Access_emergency,0,1,0,0,1
+link_Access_forestry,0,0,0,1,1
+link_Access_no,0,1,0,0,1
+link_Access_official,0,0,0,1,1
+link_Access_permissive,0,0,0,1,1
+link_Access_permit,0,0,0,1,1
+link_Access_private,0,1,0,0,1
+link_Access_residents,0,1,0,0,1
+link_Access_restricted,0,0,0,1,1
+link_Class_primary,0,0,0,1,1
+link_Class_residential_link,0,0,0,1,1
+link_Class_tertiary,0,0,0,1,1
+link_Class_tertiary_link,0,1,0,0,1
+link_Class_trunk_link,0,0,0,1,1
+link_Curvature_q50,0,1,0,0,1
+link_SpeedLimit_min,0,1,0,0,1
+link_avg_detector_pos_mean,0,0,0,1,1
+link_avg_detector_pos_q50,0,1,0,0,1
+link_num_detectors_mean,0,0,0,1,1
+node_04_day_st_std,0,1,0,0,1
+node_10_precip_std,0,0,0,1,1
+node_12_day_st_min,0,0,0,1,1
+node_InflowCount_std,0,0,0,1,1
+node_deciduous_needleleaf_forest_std,0,0,0,1,1
+node_evergreen_broadleaf_forest_max,0,0,0,1,1
+node_evergreen_needleleaf_forest_std,0,1,0,0,1
+node_water_min,0,1,0,0,1

@@ -1,0 +1,7 @@
+step,n_after,dropped,param_used
+start,428,0,
+variance,413,15,
+deduplicate,413,0,
+correlation,224,189,thresh=0.95
+vif,74,150,max_vif=10.0
+final,74,354,

@@ -1,0 +1,82 @@
+{
+ "continents": {
+  "Europe": 133,
+  "North America": 7,
+  "Asia": 1
+ },
+ "n_urbanized": 32,
+ "urbanized_outside_utd19": 0,
+ "all_cubic": {
+  "branches": 0.7304964539007093,
+  "standard_forms": 0.851063829787234
+ },
+ "paired": {
+  "all": {
+   "Cubic": {
+    "p": 9.157996294923745e-06,
+    "hybrid_better": 94,
+    "n": 141
+   },
+   "Nonagonal": {
+    "p": 1.2353060484498325e-07,
+    "hybrid_better": 96,
+    "n": 141
+   },
+   "Pentagonal": {
+    "p": 5.227799093956473e-09,
+    "hybrid_better": 103,
+    "n": 141
+   },
+   "Drake": {
+    "p": 2.627803726783734e-10,
+    "hybrid_better": 102,
+    "n": 141
+   },
+   "Greenshields": {
+    "p": 2.471499040357302e-18,
+    "hybrid_better": 115,
+    "n": 141
+   },
+   "Underwood": {
+    "p": 1.4548256384283226e-21,
+    "hybrid_better": 131,
+    "n": 141
+   }
+  },
+  "urbanized": {
+   "Cubic": {
+    "p": 0.0007729628123342991,
+    "hybrid_better": 24,
+    "n": 32
+   },
+   "Nonagonal": {
+    "p": 0.004710245877504349,
+    "hybrid_better": 23,
+    "n": 32
+   },
+   "Pentagonal": {
+    "p": 0.018431528005748987,
+    "hybrid_better": 23,
+    "n": 32
+   },
+   "Drake": {
+    "p": 0.08720785705372691,
+    "hybrid_better": 21,
+    "n": 32
+   },
+   "Greenshields": {
+    "p": 0.7608502637594938,
+    "hybrid_better": 14,
+    "n": 32
+   },
+   "Underwood": {
+    "p": 0.0017936383374035358,
+    "hybrid_better": 24,
+    "n": 32
+   }
+  }
+ },
+ "median_nrmse": 0.0537589365143785,
+ "n_over_0p2": 6,
+ "trend_share_median": 0.6538347028726882
+}

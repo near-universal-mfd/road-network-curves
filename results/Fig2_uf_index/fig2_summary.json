@@ -1,0 +1,23 @@
+{
+ "a": 0.332261280526356,
+ "d": 1.2946893379154005,
+ "s_u": 0.2344,
+ "s_K": 0.1343,
+ "b": 1.8869486861417544,
+ "w_uf": 1.5680034828233878,
+ "u_star_kmh": 44.29295442556011,
+ "n_networks": 141,
+ "assignment_index_exact": 0.8439716312056738,
+ "assignment_index_binned": 0.8439716312056738,
+ "n_exponential_better": 38,
+ "n_index_urbanized": 32,
+ "uf_40kmh_vs_branches": 0.8226950354609929,
+ "uf_best_threshold_vs_branches": [
+  45.272727,
+  0.8439716312056738
+ ],
+ "n_underwood_better_standard_forms": 21,
+ "assignment_index_vs_standard_forms": 0.8936170212765957,
+ "uf_40kmh_vs_standard_forms": 0.8723404255319149,
+ "agreement_branch_vs_standard_labels": 0.8794326241134752
+}

@@ -1,0 +1,172 @@
+key,value,output_file,script
+a,0.332261280526356,MFDs_Curve_uncertainty/point_estimate.json,mfd_uncertainty.py
+d,1.2946893379154005,MFDs_Curve_uncertainty/point_estimate.json,mfd_uncertainty.py
+S,0.6126538146902446,MFDs_Curve_uncertainty/point_estimate.json,mfd_uncertainty.py
+a_ci.0,0.2810758053923907,MFDs_Curve_uncertainty_full/interval_summary.csv,mfd_uncertainty.py
+a_ci.1,0.3777019277919271,MFDs_Curve_uncertainty_full/interval_summary.csv,mfd_uncertainty.py
+d_ci.0,1.1836241386166333,MFDs_Curve_uncertainty_full/interval_summary.csv,mfd_uncertainty.py
+d_ci.1,1.3848160207545446,MFDs_Curve_uncertainty_full/interval_summary.csv,mfd_uncertainty.py
+S_ci.0,0.5600956109092687,MFDs_Curve_uncertainty_full/interval_summary.csv,mfd_uncertainty.py
+S_ci.1,0.6577368493993504,MFDs_Curve_uncertainty_full/interval_summary.csv,mfd_uncertainty.py
+cap_s,0.7774204268415266,MFDs_Curve_uncertainty/point_estimate.json,mfd_uncertainty.py
+cap_u,0.4762895901227079,MFDs_Curve_uncertainty/point_estimate.json,mfd_uncertainty.py
+cap_s_ci.0,0.7603586017968941,MFDs_Curve_uncertainty_full/interval_summary.csv,mfd_uncertainty.py
+cap_s_ci.1,0.792567309263363,MFDs_Curve_uncertainty_full/interval_summary.csv,mfd_uncertainty.py
+cap_u_ci.0,0.4354309866711024,MFDs_Curve_uncertainty_full/interval_summary.csv,mfd_uncertainty.py
+cap_u_ci.1,0.5094453438401926,MFDs_Curve_uncertainty_full/interval_summary.csv,mfd_uncertainty.py
+xj,1.6749097715228114,MFDs_Curve_uncertainty/point_estimate.json,mfd_uncertainty.py
+xj_ci.0,1.669285102836782,MFDs_Curve_uncertainty_full/interval_summary.csv,mfd_uncertainty.py
+xj_ci.1,1.681723202826649,MFDs_Curve_uncertainty_full/interval_summary.csv,mfd_uncertainty.py
+ws,-2.5565076654965324,MFDs_Curve_uncertainty/point_estimate.json,mfd_uncertainty.py
+ws_ci.0,-2.630498634285225,MFDs_Curve_uncertainty_full/interval_summary.csv,mfd_uncertainty.py
+ws_ci.1,-2.472694128695421,MFDs_Curve_uncertainty_full/interval_summary.csv,mfd_uncertainty.py
+wu,-1.5817185840047128,MFDs_Curve_uncertainty/point_estimate.json,mfd_uncertainty.py
+wu_ci.0,-1.6945977526812614,MFDs_Curve_uncertainty_full/interval_summary.csv,mfd_uncertainty.py
+wu_ci.1,-1.4440442924629022,MFDs_Curve_uncertainty_full/interval_summary.csv,mfd_uncertainty.py
+class_agree,0.9866950354609928,MFDs_Curve_uncertainty_full/interval_summary.csv,mfd_uncertainty.py
+class_agree_ci.0,0.9574468085106383,MFDs_Curve_uncertainty_full/interval_summary.csv,mfd_uncertainty.py
+class_agree_ci.1,1.0,MFDs_Curve_uncertainty_full/interval_summary.csv,mfd_uncertainty.py
+n_urban,32,MFDs_Curve_uncertainty/per_network_UI.csv,mfd_uncertainty.py
+frac_urban,0.22695035460992907,MFDs_Curve_uncertainty/per_network_UI.csv,mfd_uncertainty.py
+wavg,0.709078676664206,MFDs_Curve_uncertainty/per_network_UI.csv,mfd_uncertainty.py
+b,1.8869486861417544,MFDs_Curve_uncertainty/point_estimate.json,mfd_uncertainty.py
+w_uf,1.5680034828233878,MFDs_Curve_uncertainty/point_estimate.json,mfd_uncertainty.py
+alpha_urb.0,0.5762516371637221,MFDs_Curve_uncertainty/per_network_UI.csv,mfd_uncertainty.py
+alpha_urb.1,0.8532436260679627,MFDs_Curve_uncertainty/per_network_UI.csv,mfd_uncertainty.py
+cap_urb_net.0,0.5034161397280135,MFDs_Curve_uncertainty/per_network_UI.csv,mfd_uncertainty.py
+cap_urb_net.1,0.5178174014179512,MFDs_Curve_uncertainty/per_network_UI.csv,mfd_uncertainty.py
+cap_urb_net.2,0.5721607875177346,MFDs_Curve_uncertainty/per_network_UI.csv,mfd_uncertainty.py
+wave_urb_net.0,-1.9932504388493493,MFDs_Curve_uncertainty/per_network_UI.csv,mfd_uncertainty.py
+wave_urb_net.1,-1.7239973699554634,MFDs_Curve_uncertainty/per_network_UI.csv,mfd_uncertainty.py
+mu_phi,1.4168971359535252,MFDs_Curve_uncertainty/point_estimate.json,mfd_uncertainty.py
+sd_phi,0.873861397597086,MFDs_Curve_uncertainty/point_estimate.json,mfd_uncertainty.py
+mu_u,71.90143603970438,MFDs_Curve_uncertainty/point_estimate.json,mfd_uncertainty.py
+sd_u,27.41445239500795,MFDs_Curve_uncertainty/point_estimate.json,mfd_uncertainty.py
+a_cubic_ls,0.11392227402498889,MFDs_Curve_uncertainty/point_estimate.json,mfd_uncertainty.py
+cv.train,0.06895340804635795,MFDs_Curve_uncertainty_full/cv_folds.csv,mfd_uncertainty.py --cv
+cv.test,0.07060226530674311,MFDs_Curve_uncertainty_full/cv_folds.csv,mfd_uncertainty.py --cv
+cv.a,0.33194707070353274,MFDs_Curve_uncertainty_full/cv_folds.csv,mfd_uncertainty.py --cv
+cv.a_sd,0.013555359238276206,MFDs_Curve_uncertainty_full/cv_folds.csv,mfd_uncertainty.py --cv
+cv.d,1.2921312076460727,MFDs_Curve_uncertainty_full/cv_folds.csv,mfd_uncertainty.py --cv
+cv.d_sd,0.022635140972543093,MFDs_Curve_uncertainty_full/cv_folds.csv,mfd_uncertainty.py --cv
+cv.acc_train,0.8475904952928939,MFDs_Curve_uncertainty_full/cv_folds.csv,mfd_uncertainty.py --cv
+cv.acc_test,0.8384871794871795,MFDs_Curve_uncertainty_full/cv_folds.csv,mfd_uncertainty.py --cv
+worst.0,Birmingham,MFDs_Curve_uncertainty_full/cv_per_network.csv,mfd_uncertainty.py --cv
+worst.1,Los Angeles,MFDs_Curve_uncertainty_full/cv_per_network.csv,mfd_uncertainty.py --cv
+worst.2,Vilnius,MFDs_Curve_uncertainty_full/cv_per_network.csv,mfd_uncertainty.py --cv
+worst.3,Frankfurt,MFDs_Curve_uncertainty_full/cv_per_network.csv,mfd_uncertainty.py --cv
+worst.4,Santander,MFDs_Curve_uncertainty_full/cv_per_network.csv,mfd_uncertainty.py --cv
+four.cv_train,0.06783006903485986,comparison_four_input/,mfd_uncertainty.py
+four.cv_test,0.07420224173979113,comparison_four_input/,mfd_uncertainty.py
+four.acc_train,0.8524909504707103,comparison_four_input/,mfd_uncertainty.py
+four.acc_test,0.8230769230769232,comparison_four_input/,mfd_uncertainty.py
+four.folds_worse,18,comparison_four_input/,mfd_uncertainty.py
+four.folds,20,comparison_four_input/,mfd_uncertainty.py
+four.net_median_diff,-3.0773191278497813e-05,comparison_four_input/,mfd_uncertainty.py
+four.largest_gains.0,Speyer,comparison_four_input/,mfd_uncertainty.py
+four.largest_gains.1,Los Angeles,comparison_four_input/,mfd_uncertainty.py
+four.largest_gains.2,Cagliari,comparison_four_input/,mfd_uncertainty.py
+four.gains_correct4.0,0.25,comparison_four_input/,mfd_uncertainty.py
+four.gains_correct4.1,0.0,comparison_four_input/,mfd_uncertainty.py
+four.gains_correct4.2,0.25,comparison_four_input/,mfd_uncertainty.py
+four.boot_n,300,comparison_four_input/,mfd_uncertainty.py
+four.sign_flips.w_uf,0.0,comparison_four_input/,mfd_uncertainty.py
+four.sign_flips.w_L,0.3433333333333333,comparison_four_input/,mfd_uncertainty.py
+four.sign_flips.w_SL,0.43666666666666665,comparison_four_input/,mfd_uncertainty.py
+four.sign_flips.w_C,0.28,comparison_four_input/,mfd_uncertainty.py
+u_star,44.29295442556011,Fig2_uf_index/fig2_summary.json,notebooks/08_fig2_uf_index.ipynb
+acc_index,0.8439716312056738,Fig2_uf_index/fig2_summary.json,notebooks/08_fig2_uf_index.ipynb
+acc_index_std,0.8936170212765957,Fig2_uf_index/fig2_summary.json,notebooks/08_fig2_uf_index.ipynb
+worst_slow_cubic.0,Frankfurt,Fig2_uf_index/fig2_per_network.csv,notebooks/08_fig2_uf_index.ipynb
+worst_slow_cubic.1,Santander,Fig2_uf_index/fig2_per_network.csv,notebooks/08_fig2_uf_index.ipynb
+worst_fast_exp.0,Los Angeles,Fig2_uf_index/fig2_per_network.csv,notebooks/08_fig2_uf_index.ipynb
+worst_right.0,Birmingham,Fig2_uf_index/fig2_per_network.csv,notebooks/08_fig2_uf_index.ipynb
+worst_right.1,Vilnius,Fig2_uf_index/fig2_per_network.csv,notebooks/08_fig2_uf_index.ipynb
+uf_und_iqr.0,25.69498750604693,MFDs_FINAL/per_city_errors_normalized.csv,notebooks/05_models_and_figures.ipynb
+uf_und_iqr.1,34.90909090909091,MFDs_FINAL/per_city_errors_normalized.csv,notebooks/05_models_and_figures.ipynb
+uf_cubstd_iqr.0,78.51102783725909,MFDs_FINAL/per_city_errors_normalized.csv,notebooks/05_models_and_figures.ipynb
+uf_cubstd_iqr.1,91.51006097560978,MFDs_FINAL/per_city_errors_normalized.csv,notebooks/05_models_and_figures.ipynb
+phi13_median,0.9948162111215834,data/per_lane/Outputs/,build_per_lane_data.py
+phi13_q25,0.9407407407407408,data/per_lane/Outputs/,build_per_lane_data.py
+phi13_bordeaux,0.9224999999999999,data/per_lane/Outputs/,build_per_lane_data.py
+phi13_konstanz,0.8571428571428571,data/per_lane/Outputs/,build_per_lane_data.py
+uf_ratio,13.732491073880801,data/per_lane/Outputs/,build_per_lane_data.py
+qc_ratio,8.243450297545365,data/per_lane/Outputs/,build_per_lane_data.py
+fig3_uf.cagliari,32.8,data/per_lane/network_scales.csv,build_per_lane_data.py
+fig3_uf.wanborough,100.28571428571428,data/per_lane/network_scales.csv,build_per_lane_data.py
+feat.start,428,StatResults/diagnostics/feature_drop_summary.csv,notebooks/01_statistics.ipynb
+feat.var,15,StatResults/diagnostics/feature_drop_summary.csv,notebooks/01_statistics.ipynb
+feat.corr,189,StatResults/diagnostics/feature_drop_summary.csv,notebooks/01_statistics.ipynb
+feat.vif,150,StatResults/diagnostics/feature_drop_summary.csv,notebooks/01_statistics.ipynb
+feat.final,74,StatResults/diagnostics/feature_drop_summary.csv,notebooks/01_statistics.ipynb
+r2_flow.0,0.3287045839662118,StatResults/pls2_all_targets_r2_CV.csv,notebooks/01_statistics.ipynb
+r2_flow.1,0.5529271780356554,StatResults/pls2_all_targets_r2_CV.csv,notebooks/01_statistics.ipynb
+r2_kc,-0.0215398167541895,StatResults/pls2_all_targets_r2_CV.csv,notebooks/01_statistics.ipynb
+r2_seed_maxdev,0.06,StatResults/pls2_r2_CV_by_seed.csv,stats_cv_stability.py
+r2_kc_range.0,-0.0215398167541898,StatResults/pls2_r2_CV_by_seed.csv,stats_cv_stability.py
+r2_kc_range.1,0.1354790790894481,StatResults/pls2_r2_CV_by_seed.csv,stats_cv_stability.py
+n_sig_flow,26,StatResults/corr_predictors_vs_*.csv,notebooks/01_statistics.ipynb
+n_strong_flow,13,StatResults/corr_predictors_vs_*.csv,notebooks/01_statistics.ipynb
+n_sig_kc,6,StatResults/corr_predictors_vs_kc.csv,notebooks/01_statistics.ipynb
+runtime_min.global_search,0.8166666666666667,the authors' logs,not recomputed: run times on the authors' laptop
+runtime_min.statistics,8.4,the authors' logs,not recomputed: run times on the authors' laptop
+runtime_min.bootstrap,156.0,the authors' logs,not recomputed: run times on the authors' laptop
+runtime_min.jackknife,21.766666666666666,the authors' logs,not recomputed: run times on the authors' laptop
+runtime_min.cv,4.1,the authors' logs,not recomputed: run times on the authors' laptop
+r2_within_max,0.0935210502337425,diagnostics/stats_by_source.csv,check_stats_by_source.py
+phi13_by_source.utd19,0.904,StatResults/modeling_Y_multi.csv,notebooks/01_statistics.ipynb
+phi13_by_source.others,1.0,StatResults/modeling_Y_multi.csv,notebooks/01_statistics.ipynb
+model_errors.continents.Europe,133,diagnostics/model_errors.json,check_model_errors.py
+model_errors.continents.North America,7,diagnostics/model_errors.json,check_model_errors.py
+model_errors.continents.Asia,1,diagnostics/model_errors.json,check_model_errors.py
+model_errors.urbanized_outside_utd19,0,diagnostics/model_errors.json,check_model_errors.py
+model_errors.all_cubic.branches,0.7304964539007093,diagnostics/model_errors.json,check_model_errors.py
+model_errors.all_cubic.standard_forms,0.851063829787234,diagnostics/model_errors.json,check_model_errors.py
+model_errors.paired.all.Cubic,9.157996294923745e-06,diagnostics/model_errors.json,check_model_errors.py
+model_errors.paired.all.Nonagonal,1.2353060484498325e-07,diagnostics/model_errors.json,check_model_errors.py
+model_errors.paired.all.Pentagonal,5.227799093956473e-09,diagnostics/model_errors.json,check_model_errors.py
+model_errors.paired.all.Drake,2.627803726783734e-10,diagnostics/model_errors.json,check_model_errors.py
+model_errors.paired.all.Greenshields,2.471499040357302e-18,diagnostics/model_errors.json,check_model_errors.py
+model_errors.paired.all.Underwood,1.4548256384283226e-21,diagnostics/model_errors.json,check_model_errors.py
+model_errors.paired.urbanized.Greenshields,0.7608502637594938,diagnostics/model_errors.json,check_model_errors.py
+model_errors.paired.urbanized.Drake,0.08720785705372691,diagnostics/model_errors.json,check_model_errors.py
+model_errors.median_nrmse,0.0537589365143785,diagnostics/model_errors.json,check_model_errors.py
+model_errors.n_over_0p2,6,diagnostics/model_errors.json,check_model_errors.py
+model_errors.trend_share_median,0.6538347028726882,diagnostics/model_errors.json,check_model_errors.py
+near_capacity.obs_share_sparse,0.7918946297068216,diagnostics/near_capacity_bins.csv,diag_near_capacity.py
+near_capacity.observed_coeff_sparse,0.78125,diagnostics/near_capacity_bins.csv,diag_near_capacity.py
+near_capacity.rmse_urban_hybrid,0.19720373336143376,diagnostics/near_capacity_bins.csv,diag_near_capacity.py
+near_capacity.rmse_urban_greenshields,0.18608130787848803,diagnostics/near_capacity_bins.csv,diag_near_capacity.py
+n_occupancy,28,data/per_lane/network_scales.csv,build_per_lane_data.py
+lanes.webtris,2.8963235294117644,data/per_lane/network_scales.csv,build_per_lane_data.py
+lanes.pems,4.116274028038734,data/per_lane/network_scales.csv,build_per_lane_data.py
+lane_check.slope,1.0981499345801897,data/per_lane/network_scales.csv,build_per_lane_data.py
+lane_check.se,0.12788630791677028,data/per_lane/network_scales.csv,build_per_lane_data.py
+detectors_motorway.webtris,1.0,diagnostics/network_structure.csv,check_network_structure.py
+detectors_motorway.pems,0.8629629629629629,diagnostics/network_structure.csv,check_network_structure.py
+factor_measured.constance,154.7480259924203,diagnostics/occupancy_factor_measured.csv,measure_factor.py
+factor_measured.essen,455.348185695084,diagnostics/occupancy_factor_measured.csv,measure_factor.py
+factor_measured.SanFrancisco,131.17683714768805,diagnostics/occupancy_factor_measured.csv,measure_factor.py
+factor_measured.sanbernardino,116.55945508540174,diagnostics/occupancy_factor_measured.csv,measure_factor.py
+factor_measured.portland,179.5581000517888,diagnostics/occupancy_factor_measured.csv,measure_factor.py
+factor_measured.seattle,179.77957357841353,diagnostics/occupancy_factor_measured.csv,measure_factor.py
+free_flow.n,27,"diagnostics/factor_from_free_flow.csv, speed_limits.csv","check_factor_from_free_flow.py, check_speed_limits.py"
+free_flow.median,192.9676872761079,"diagnostics/factor_from_free_flow.csv, speed_limits.csv","check_factor_from_free_flow.py, check_speed_limits.py"
+free_flow.q25,149.4091417939322,"diagnostics/factor_from_free_flow.csv, speed_limits.csv","check_factor_from_free_flow.py, check_speed_limits.py"
+free_flow.q75,218.35717549147796,"diagnostics/factor_from_free_flow.csv, speed_limits.csv","check_factor_from_free_flow.py, check_speed_limits.py"
+free_flow.konstanz,166.42065567397648,"diagnostics/factor_from_free_flow.csv, speed_limits.csv","check_factor_from_free_flow.py, check_speed_limits.py"
+free_flow.konstanz_direct,159.07984236592392,"diagnostics/factor_from_free_flow.csv, speed_limits.csv","check_factor_from_free_flow.py, check_speed_limits.py"
+free_flow.toulouse_uf,73.32901333929627,"diagnostics/factor_from_free_flow.csv, speed_limits.csv","check_factor_from_free_flow.py, check_speed_limits.py"
+free_flow.toulouse_limit,50.0,"diagnostics/factor_from_free_flow.csv, speed_limits.csv","check_factor_from_free_flow.py, check_speed_limits.py"
+free_flow.toulouse_ratio,1.4665802667859253,"diagnostics/factor_from_free_flow.csv, speed_limits.csv","check_factor_from_free_flow.py, check_speed_limits.py"
+free_flow.max_measured_ratio,1.12,"diagnostics/factor_from_free_flow.csv, speed_limits.csv","check_factor_from_free_flow.py, check_speed_limits.py"
+free_flow.peers,9,"diagnostics/factor_from_free_flow.csv, speed_limits.csv","check_factor_from_free_flow.py, check_speed_limits.py"
+free_flow.peer_ratio.0,1.686838193255163,"diagnostics/factor_from_free_flow.csv, speed_limits.csv","check_factor_from_free_flow.py, check_speed_limits.py"
+free_flow.peer_ratio.1,1.8143547279167664,"diagnostics/factor_from_free_flow.csv, speed_limits.csv","check_factor_from_free_flow.py, check_speed_limits.py"
+free_flow.above_limit.0,toulouse,"diagnostics/factor_from_free_flow.csv, speed_limits.csv","check_factor_from_free_flow.py, check_speed_limits.py"
+free_flow.toulouse_factor,300.0,"diagnostics/factor_from_free_flow.csv, speed_limits.csv","check_factor_from_free_flow.py, check_speed_limits.py"
+free_flow.toulouse_uf_own,40.73834074405348,"diagnostics/factor_from_free_flow.csv, speed_limits.csv","check_factor_from_free_flow.py, check_speed_limits.py"
+kc_auto.within25,0.624113475177305,diagnostics/kc_hand_vs_auto.csv,check_aggregation.py
+kc_auto.same_form,0.9432624113475178,diagnostics/kc_hand_vs_auto.csv,check_aggregation.py
+b_at_bound,0.084,MFDs_Curve_uncertainty_full/bootstrap_draws.csv,mfd_uncertainty.py
+b_bound_largest_change,0.002,diagnostics/b_bound_intervals.csv,check_b_bound.py

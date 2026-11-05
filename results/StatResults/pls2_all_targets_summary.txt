@@ -1,0 +1,2 @@
+Selected PLS components (CV): 2
+Higher VIP (~>1) often indicates influential predictors on the multivariate response.

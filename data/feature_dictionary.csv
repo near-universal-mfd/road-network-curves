@@ -1,0 +1,432 @@
+feature,level,description,source,retained_in_74,removed_by
+link_Class_motorway,link,share of links of class motorway,OpenStreetMap,True,
+link_Class_motorway_link,link,share of links of class motorway_link,OpenStreetMap,True,
+link_Class_primary,link,share of links of class primary,OpenStreetMap,True,
+link_Class_primary_link,link,share of links of class primary_link,OpenStreetMap,True,
+link_Class_residential,link,share of links of class residential,OpenStreetMap,False,variance inflation factor above 10
+link_Class_secondary,link,share of links of class secondary,OpenStreetMap,True,
+link_Class_tertiary,link,share of links of class tertiary,OpenStreetMap,True,
+link_Class_trunk,link,share of links of class trunk,OpenStreetMap,True,
+link_Class_trunk_link,link,share of links of class trunk_link,OpenStreetMap,True,
+link_Access_no,link,share of links with access tag no,OpenStreetMap,True,
+link_Access_private,link,share of links with access tag private,OpenStreetMap,True,
+link_Access_unknown,link,share of links with access tag unknown,OpenStreetMap,True,
+link_Access_yes,link,share of links with access tag yes,OpenStreetMap,True,
+link_Bridge_frac,link,share of links tagged bridge,OpenStreetMap,True,
+link_Tunnel_frac,link,share of links tagged tunnel,OpenStreetMap,True,
+link_SpeedLimit_missing_frac,link,share of links with no speed-limit tag,OpenStreetMap,True,
+link_Oneway_frac,link,share of links tagged oneway,OpenStreetMap,False,variance inflation factor above 10
+link_Roundabout_frac,link,share of links tagged roundabout,OpenStreetMap,True,
+link_Lanes_mean,link,mean over links of lanes (OSM tag),OpenStreetMap,False,variance inflation factor above 10
+link_Lanes_std,link,standard deviation over links of lanes (OSM tag),OpenStreetMap,False,variance inflation factor above 10
+link_Lanes_min,link,minimum over links of lanes (OSM tag),OpenStreetMap,True,
+link_Lanes_max,link,maximum over links of lanes (OSM tag),OpenStreetMap,False,variance inflation factor above 10
+link_Lanes_q50,link,median over links of lanes (OSM tag),OpenStreetMap,True,
+link_num_detectors_mean,link,mean over links of detectors on a link,OpenStreetMap,True,
+link_num_detectors_std,link,standard deviation over links of detectors on a link,OpenStreetMap,False,variance inflation factor above 10
+link_num_detectors_min,link,minimum over links of detectors on a link,OpenStreetMap,False,near-zero variance
+link_num_detectors_max,link,maximum over links of detectors on a link,OpenStreetMap,True,
+link_num_detectors_q50,link,median over links of detectors on a link,OpenStreetMap,False,near-zero variance
+link_LinkLength_mean,link,mean over links of link length (m),OpenStreetMap,False,variance inflation factor above 10
+link_LinkLength_std,link,standard deviation over links of link length (m),OpenStreetMap,False,variance inflation factor above 10
+link_LinkLength_min,link,minimum over links of link length (m),OpenStreetMap,False,variance inflation factor above 10
+link_LinkLength_max,link,maximum over links of link length (m),OpenStreetMap,True,
+link_LinkLength_q50,link,median over links of link length (m),OpenStreetMap,False,variance inflation factor above 10
+link_Curvature_mean,link,mean over links of link curvature (length / straight-line distance),OpenStreetMap,False,variance inflation factor above 10
+link_Curvature_std,link,standard deviation over links of link curvature (length / straight-line distance),OpenStreetMap,True,
+link_Curvature_min,link,minimum over links of link curvature (length / straight-line distance),OpenStreetMap,False,near-zero variance
+link_Curvature_max,link,maximum over links of link curvature (length / straight-line distance),OpenStreetMap,False,correlation above 0.95
+link_Curvature_q50,link,median over links of link curvature (length / straight-line distance),OpenStreetMap,True,
+link_SpeedLimit_mean,link,mean over links of tagged speed limit (km/h),OpenStreetMap,False,variance inflation factor above 10
+link_SpeedLimit_std,link,standard deviation over links of tagged speed limit (km/h),OpenStreetMap,False,variance inflation factor above 10
+link_SpeedLimit_min,link,minimum over links of tagged speed limit (km/h),OpenStreetMap,True,
+link_SpeedLimit_max,link,maximum over links of tagged speed limit (km/h),OpenStreetMap,True,
+link_SpeedLimit_q50,link,median over links of tagged speed limit (km/h),OpenStreetMap,False,variance inflation factor above 10
+link_avg_detector_pos_mean,link,mean over links of mean position of a link's detectors along it,OpenStreetMap,True,
+link_avg_detector_pos_std,link,standard deviation over links of mean position of a link's detectors along it,OpenStreetMap,True,
+link_avg_detector_pos_min,link,minimum over links of mean position of a link's detectors along it,OpenStreetMap,False,variance inflation factor above 10
+link_avg_detector_pos_max,link,maximum over links of mean position of a link's detectors along it,OpenStreetMap,False,variance inflation factor above 10
+link_avg_detector_pos_q50,link,median over links of mean position of a link's detectors along it,OpenStreetMap,True,
+node_01_day_st_mean,node,"mean over nodes of daytime land surface temperature, month 01","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,variance inflation factor above 10
+node_01_day_st_std,node,"standard deviation over nodes of daytime land surface temperature, month 01","GeoQuery: MODIS MOD11C3 v6.1, 2023",True,
+node_01_day_st_min,node,"minimum over nodes of daytime land surface temperature, month 01","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,variance inflation factor above 10
+node_01_day_st_max,node,"maximum over nodes of daytime land surface temperature, month 01","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,correlation above 0.95
+node_01_night_st_mean,node,"mean over nodes of nighttime land surface temperature, month 01","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,correlation above 0.95
+node_01_night_st_std,node,"standard deviation over nodes of nighttime land surface temperature, month 01","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,variance inflation factor above 10
+node_01_night_st_min,node,"minimum over nodes of nighttime land surface temperature, month 01","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,variance inflation factor above 10
+node_01_night_st_max,node,"maximum over nodes of nighttime land surface temperature, month 01","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,variance inflation factor above 10
+node_01_precip_mean,node,"mean over nodes of precipitation, month 01","GeoQuery: CRU TS v4.07, 2022",False,correlation above 0.95
+node_01_precip_std,node,"standard deviation over nodes of precipitation, month 01","GeoQuery: CRU TS v4.07, 2022",False,variance inflation factor above 10
+node_01_precip_min,node,"minimum over nodes of precipitation, month 01","GeoQuery: CRU TS v4.07, 2022",False,variance inflation factor above 10
+node_01_precip_max,node,"maximum over nodes of precipitation, month 01","GeoQuery: CRU TS v4.07, 2022",False,correlation above 0.95
+node_02_day_st_mean,node,"mean over nodes of daytime land surface temperature, month 02","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,correlation above 0.95
+node_02_day_st_std,node,"standard deviation over nodes of daytime land surface temperature, month 02","GeoQuery: MODIS MOD11C3 v6.1, 2023",True,
+node_02_day_st_min,node,"minimum over nodes of daytime land surface temperature, month 02","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,variance inflation factor above 10
+node_02_day_st_max,node,"maximum over nodes of daytime land surface temperature, month 02","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,correlation above 0.95
+node_02_night_st_mean,node,"mean over nodes of nighttime land surface temperature, month 02","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,correlation above 0.95
+node_02_night_st_std,node,"standard deviation over nodes of nighttime land surface temperature, month 02","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,variance inflation factor above 10
+node_02_night_st_min,node,"minimum over nodes of nighttime land surface temperature, month 02","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,variance inflation factor above 10
+node_02_night_st_max,node,"maximum over nodes of nighttime land surface temperature, month 02","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,correlation above 0.95
+node_02_precip_mean,node,"mean over nodes of precipitation, month 02","GeoQuery: CRU TS v4.07, 2022",False,correlation above 0.95
+node_02_precip_std,node,"standard deviation over nodes of precipitation, month 02","GeoQuery: CRU TS v4.07, 2022",False,variance inflation factor above 10
+node_02_precip_min,node,"minimum over nodes of precipitation, month 02","GeoQuery: CRU TS v4.07, 2022",False,correlation above 0.95
+node_02_precip_max,node,"maximum over nodes of precipitation, month 02","GeoQuery: CRU TS v4.07, 2022",False,correlation above 0.95
+node_03_day_st_mean,node,"mean over nodes of daytime land surface temperature, month 03","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,correlation above 0.95
+node_03_day_st_std,node,"standard deviation over nodes of daytime land surface temperature, month 03","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,variance inflation factor above 10
+node_03_day_st_min,node,"minimum over nodes of daytime land surface temperature, month 03","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,variance inflation factor above 10
+node_03_day_st_max,node,"maximum over nodes of daytime land surface temperature, month 03","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,correlation above 0.95
+node_03_night_st_mean,node,"mean over nodes of nighttime land surface temperature, month 03","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,correlation above 0.95
+node_03_night_st_std,node,"standard deviation over nodes of nighttime land surface temperature, month 03","GeoQuery: MODIS MOD11C3 v6.1, 2023",True,
+node_03_night_st_min,node,"minimum over nodes of nighttime land surface temperature, month 03","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,variance inflation factor above 10
+node_03_night_st_max,node,"maximum over nodes of nighttime land surface temperature, month 03","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,variance inflation factor above 10
+node_03_precip_mean,node,"mean over nodes of precipitation, month 03","GeoQuery: CRU TS v4.07, 2022",False,correlation above 0.95
+node_03_precip_std,node,"standard deviation over nodes of precipitation, month 03","GeoQuery: CRU TS v4.07, 2022",False,variance inflation factor above 10
+node_03_precip_min,node,"minimum over nodes of precipitation, month 03","GeoQuery: CRU TS v4.07, 2022",False,variance inflation factor above 10
+node_03_precip_max,node,"maximum over nodes of precipitation, month 03","GeoQuery: CRU TS v4.07, 2022",False,correlation above 0.95
+node_04_day_st_mean,node,"mean over nodes of daytime land surface temperature, month 04","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,variance inflation factor above 10
+node_04_day_st_std,node,"standard deviation over nodes of daytime land surface temperature, month 04","GeoQuery: MODIS MOD11C3 v6.1, 2023",True,
+node_04_day_st_min,node,"minimum over nodes of daytime land surface temperature, month 04","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,variance inflation factor above 10
+node_04_day_st_max,node,"maximum over nodes of daytime land surface temperature, month 04","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,correlation above 0.95
+node_04_night_st_mean,node,"mean over nodes of nighttime land surface temperature, month 04","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,correlation above 0.95
+node_04_night_st_std,node,"standard deviation over nodes of nighttime land surface temperature, month 04","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,variance inflation factor above 10
+node_04_night_st_min,node,"minimum over nodes of nighttime land surface temperature, month 04","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,variance inflation factor above 10
+node_04_night_st_max,node,"maximum over nodes of nighttime land surface temperature, month 04","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,correlation above 0.95
+node_04_precip_mean,node,"mean over nodes of precipitation, month 04","GeoQuery: CRU TS v4.07, 2022",False,correlation above 0.95
+node_04_precip_std,node,"standard deviation over nodes of precipitation, month 04","GeoQuery: CRU TS v4.07, 2022",False,variance inflation factor above 10
+node_04_precip_min,node,"minimum over nodes of precipitation, month 04","GeoQuery: CRU TS v4.07, 2022",False,variance inflation factor above 10
+node_04_precip_max,node,"maximum over nodes of precipitation, month 04","GeoQuery: CRU TS v4.07, 2022",False,correlation above 0.95
+node_05_day_st_mean,node,"mean over nodes of daytime land surface temperature, month 05","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,correlation above 0.95
+node_05_day_st_std,node,"standard deviation over nodes of daytime land surface temperature, month 05","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,variance inflation factor above 10
+node_05_day_st_min,node,"minimum over nodes of daytime land surface temperature, month 05","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,variance inflation factor above 10
+node_05_day_st_max,node,"maximum over nodes of daytime land surface temperature, month 05","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,correlation above 0.95
+node_05_night_st_mean,node,"mean over nodes of nighttime land surface temperature, month 05","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,variance inflation factor above 10
+node_05_night_st_std,node,"standard deviation over nodes of nighttime land surface temperature, month 05","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,variance inflation factor above 10
+node_05_night_st_min,node,"minimum over nodes of nighttime land surface temperature, month 05","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,variance inflation factor above 10
+node_05_night_st_max,node,"maximum over nodes of nighttime land surface temperature, month 05","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,variance inflation factor above 10
+node_05_precip_mean,node,"mean over nodes of precipitation, month 05","GeoQuery: CRU TS v4.07, 2022",False,correlation above 0.95
+node_05_precip_std,node,"standard deviation over nodes of precipitation, month 05","GeoQuery: CRU TS v4.07, 2022",False,variance inflation factor above 10
+node_05_precip_min,node,"minimum over nodes of precipitation, month 05","GeoQuery: CRU TS v4.07, 2022",False,variance inflation factor above 10
+node_05_precip_max,node,"maximum over nodes of precipitation, month 05","GeoQuery: CRU TS v4.07, 2022",False,correlation above 0.95
+node_06_day_st_mean,node,"mean over nodes of daytime land surface temperature, month 06","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,variance inflation factor above 10
+node_06_day_st_std,node,"standard deviation over nodes of daytime land surface temperature, month 06","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,variance inflation factor above 10
+node_06_day_st_min,node,"minimum over nodes of daytime land surface temperature, month 06","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,variance inflation factor above 10
+node_06_day_st_max,node,"maximum over nodes of daytime land surface temperature, month 06","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,variance inflation factor above 10
+node_06_night_st_mean,node,"mean over nodes of nighttime land surface temperature, month 06","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,variance inflation factor above 10
+node_06_night_st_std,node,"standard deviation over nodes of nighttime land surface temperature, month 06","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,variance inflation factor above 10
+node_06_night_st_min,node,"minimum over nodes of nighttime land surface temperature, month 06","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,variance inflation factor above 10
+node_06_night_st_max,node,"maximum over nodes of nighttime land surface temperature, month 06","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,correlation above 0.95
+node_06_precip_mean,node,"mean over nodes of precipitation, month 06","GeoQuery: CRU TS v4.07, 2022",False,correlation above 0.95
+node_06_precip_std,node,"standard deviation over nodes of precipitation, month 06","GeoQuery: CRU TS v4.07, 2022",False,variance inflation factor above 10
+node_06_precip_min,node,"minimum over nodes of precipitation, month 06","GeoQuery: CRU TS v4.07, 2022",False,variance inflation factor above 10
+node_06_precip_max,node,"maximum over nodes of precipitation, month 06","GeoQuery: CRU TS v4.07, 2022",False,correlation above 0.95
+node_07_day_st_mean,node,"mean over nodes of daytime land surface temperature, month 07","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,correlation above 0.95
+node_07_day_st_std,node,"standard deviation over nodes of daytime land surface temperature, month 07","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,variance inflation factor above 10
+node_07_day_st_min,node,"minimum over nodes of daytime land surface temperature, month 07","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,correlation above 0.95
+node_07_day_st_max,node,"maximum over nodes of daytime land surface temperature, month 07","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,correlation above 0.95
+node_07_night_st_mean,node,"mean over nodes of nighttime land surface temperature, month 07","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,correlation above 0.95
+node_07_night_st_std,node,"standard deviation over nodes of nighttime land surface temperature, month 07","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,variance inflation factor above 10
+node_07_night_st_min,node,"minimum over nodes of nighttime land surface temperature, month 07","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,variance inflation factor above 10
+node_07_night_st_max,node,"maximum over nodes of nighttime land surface temperature, month 07","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,correlation above 0.95
+node_07_precip_mean,node,"mean over nodes of precipitation, month 07","GeoQuery: CRU TS v4.07, 2022",False,correlation above 0.95
+node_07_precip_std,node,"standard deviation over nodes of precipitation, month 07","GeoQuery: CRU TS v4.07, 2022",False,variance inflation factor above 10
+node_07_precip_min,node,"minimum over nodes of precipitation, month 07","GeoQuery: CRU TS v4.07, 2022",False,variance inflation factor above 10
+node_07_precip_max,node,"maximum over nodes of precipitation, month 07","GeoQuery: CRU TS v4.07, 2022",False,correlation above 0.95
+node_08_day_st_mean,node,"mean over nodes of daytime land surface temperature, month 08","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,correlation above 0.95
+node_08_day_st_std,node,"standard deviation over nodes of daytime land surface temperature, month 08","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,variance inflation factor above 10
+node_08_day_st_min,node,"minimum over nodes of daytime land surface temperature, month 08","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,variance inflation factor above 10
+node_08_day_st_max,node,"maximum over nodes of daytime land surface temperature, month 08","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,correlation above 0.95
+node_08_night_st_mean,node,"mean over nodes of nighttime land surface temperature, month 08","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,correlation above 0.95
+node_08_night_st_std,node,"standard deviation over nodes of nighttime land surface temperature, month 08","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,variance inflation factor above 10
+node_08_night_st_min,node,"minimum over nodes of nighttime land surface temperature, month 08","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,variance inflation factor above 10
+node_08_night_st_max,node,"maximum over nodes of nighttime land surface temperature, month 08","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,correlation above 0.95
+node_08_precip_mean,node,"mean over nodes of precipitation, month 08","GeoQuery: CRU TS v4.07, 2022",False,correlation above 0.95
+node_08_precip_std,node,"standard deviation over nodes of precipitation, month 08","GeoQuery: CRU TS v4.07, 2022",True,
+node_08_precip_min,node,"minimum over nodes of precipitation, month 08","GeoQuery: CRU TS v4.07, 2022",True,
+node_08_precip_max,node,"maximum over nodes of precipitation, month 08","GeoQuery: CRU TS v4.07, 2022",False,correlation above 0.95
+node_09_day_st_mean,node,"mean over nodes of daytime land surface temperature, month 09","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,correlation above 0.95
+node_09_day_st_std,node,"standard deviation over nodes of daytime land surface temperature, month 09","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,variance inflation factor above 10
+node_09_day_st_min,node,"minimum over nodes of daytime land surface temperature, month 09","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,variance inflation factor above 10
+node_09_day_st_max,node,"maximum over nodes of daytime land surface temperature, month 09","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,correlation above 0.95
+node_09_night_st_mean,node,"mean over nodes of nighttime land surface temperature, month 09","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,variance inflation factor above 10
+node_09_night_st_std,node,"standard deviation over nodes of nighttime land surface temperature, month 09","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,variance inflation factor above 10
+node_09_night_st_min,node,"minimum over nodes of nighttime land surface temperature, month 09","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,variance inflation factor above 10
+node_09_night_st_max,node,"maximum over nodes of nighttime land surface temperature, month 09","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,correlation above 0.95
+node_09_precip_mean,node,"mean over nodes of precipitation, month 09","GeoQuery: CRU TS v4.07, 2022",False,correlation above 0.95
+node_09_precip_std,node,"standard deviation over nodes of precipitation, month 09","GeoQuery: CRU TS v4.07, 2022",False,variance inflation factor above 10
+node_09_precip_min,node,"minimum over nodes of precipitation, month 09","GeoQuery: CRU TS v4.07, 2022",False,correlation above 0.95
+node_09_precip_max,node,"maximum over nodes of precipitation, month 09","GeoQuery: CRU TS v4.07, 2022",False,correlation above 0.95
+node_10_day_st_mean,node,"mean over nodes of daytime land surface temperature, month 10","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,correlation above 0.95
+node_10_day_st_std,node,"standard deviation over nodes of daytime land surface temperature, month 10","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,variance inflation factor above 10
+node_10_day_st_min,node,"minimum over nodes of daytime land surface temperature, month 10","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,variance inflation factor above 10
+node_10_day_st_max,node,"maximum over nodes of daytime land surface temperature, month 10","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,correlation above 0.95
+node_10_night_st_mean,node,"mean over nodes of nighttime land surface temperature, month 10","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,correlation above 0.95
+node_10_night_st_std,node,"standard deviation over nodes of nighttime land surface temperature, month 10","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,variance inflation factor above 10
+node_10_night_st_min,node,"minimum over nodes of nighttime land surface temperature, month 10","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,variance inflation factor above 10
+node_10_night_st_max,node,"maximum over nodes of nighttime land surface temperature, month 10","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,correlation above 0.95
+node_10_precip_mean,node,"mean over nodes of precipitation, month 10","GeoQuery: CRU TS v4.07, 2022",False,variance inflation factor above 10
+node_10_precip_std,node,"standard deviation over nodes of precipitation, month 10","GeoQuery: CRU TS v4.07, 2022",True,
+node_10_precip_min,node,"minimum over nodes of precipitation, month 10","GeoQuery: CRU TS v4.07, 2022",False,correlation above 0.95
+node_10_precip_max,node,"maximum over nodes of precipitation, month 10","GeoQuery: CRU TS v4.07, 2022",False,variance inflation factor above 10
+node_11_day_st_mean,node,"mean over nodes of daytime land surface temperature, month 11","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,correlation above 0.95
+node_11_day_st_std,node,"standard deviation over nodes of daytime land surface temperature, month 11","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,variance inflation factor above 10
+node_11_day_st_min,node,"minimum over nodes of daytime land surface temperature, month 11","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,variance inflation factor above 10
+node_11_day_st_max,node,"maximum over nodes of daytime land surface temperature, month 11","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,correlation above 0.95
+node_11_night_st_mean,node,"mean over nodes of nighttime land surface temperature, month 11","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,correlation above 0.95
+node_11_night_st_std,node,"standard deviation over nodes of nighttime land surface temperature, month 11","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,variance inflation factor above 10
+node_11_night_st_min,node,"minimum over nodes of nighttime land surface temperature, month 11","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,variance inflation factor above 10
+node_11_night_st_max,node,"maximum over nodes of nighttime land surface temperature, month 11","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,variance inflation factor above 10
+node_11_precip_mean,node,"mean over nodes of precipitation, month 11","GeoQuery: CRU TS v4.07, 2022",False,correlation above 0.95
+node_11_precip_std,node,"standard deviation over nodes of precipitation, month 11","GeoQuery: CRU TS v4.07, 2022",False,variance inflation factor above 10
+node_11_precip_min,node,"minimum over nodes of precipitation, month 11","GeoQuery: CRU TS v4.07, 2022",False,variance inflation factor above 10
+node_11_precip_max,node,"maximum over nodes of precipitation, month 11","GeoQuery: CRU TS v4.07, 2022",False,variance inflation factor above 10
+node_12_day_st_mean,node,"mean over nodes of daytime land surface temperature, month 12","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,correlation above 0.95
+node_12_day_st_std,node,"standard deviation over nodes of daytime land surface temperature, month 12","GeoQuery: MODIS MOD11C3 v6.1, 2023",True,
+node_12_day_st_min,node,"minimum over nodes of daytime land surface temperature, month 12","GeoQuery: MODIS MOD11C3 v6.1, 2023",True,
+node_12_day_st_max,node,"maximum over nodes of daytime land surface temperature, month 12","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,variance inflation factor above 10
+node_12_night_st_mean,node,"mean over nodes of nighttime land surface temperature, month 12","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,correlation above 0.95
+node_12_night_st_std,node,"standard deviation over nodes of nighttime land surface temperature, month 12","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,variance inflation factor above 10
+node_12_night_st_min,node,"minimum over nodes of nighttime land surface temperature, month 12","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,variance inflation factor above 10
+node_12_night_st_max,node,"maximum over nodes of nighttime land surface temperature, month 12","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,variance inflation factor above 10
+node_12_precip_mean,node,"mean over nodes of precipitation, month 12","GeoQuery: CRU TS v4.07, 2022",False,correlation above 0.95
+node_12_precip_std,node,"standard deviation over nodes of precipitation, month 12","GeoQuery: CRU TS v4.07, 2022",False,variance inflation factor above 10
+node_12_precip_min,node,"minimum over nodes of precipitation, month 12","GeoQuery: CRU TS v4.07, 2022",False,correlation above 0.95
+node_12_precip_max,node,"maximum over nodes of precipitation, month 12","GeoQuery: CRU TS v4.07, 2022",False,correlation above 0.95
+node_barren_or_sparsely_vegetated_mean,node,mean over nodes of land-cover share: barren or sparsely vegetated,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,correlation above 0.95
+node_barren_or_sparsely_vegetated_std,node,standard deviation over nodes of land-cover share: barren or sparsely vegetated,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,correlation above 0.95
+node_barren_or_sparsely_vegetated_min,node,minimum over nodes of land-cover share: barren or sparsely vegetated,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,correlation above 0.95
+node_barren_or_sparsely_vegetated_max,node,maximum over nodes of land-cover share: barren or sparsely vegetated,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,correlation above 0.95
+node_closed_shrublands_mean,node,mean over nodes of land-cover share: closed shrublands,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,correlation above 0.95
+node_closed_shrublands_std,node,standard deviation over nodes of land-cover share: closed shrublands,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,correlation above 0.95
+node_closed_shrublands_min,node,minimum over nodes of land-cover share: closed shrublands,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,correlation above 0.95
+node_closed_shrublands_max,node,maximum over nodes of land-cover share: closed shrublands,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,correlation above 0.95
+node_cropland_natural_vegetation_mosaic_mean,node,mean over nodes of land-cover share: cropland and natural vegetation mosaic,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,correlation above 0.95
+node_cropland_natural_vegetation_mosaic_std,node,standard deviation over nodes of land-cover share: cropland and natural vegetation mosaic,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,variance inflation factor above 10
+node_cropland_natural_vegetation_mosaic_min,node,minimum over nodes of land-cover share: cropland and natural vegetation mosaic,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,variance inflation factor above 10
+node_cropland_natural_vegetation_mosaic_max,node,maximum over nodes of land-cover share: cropland and natural vegetation mosaic,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,variance inflation factor above 10
+node_croplands_mean,node,mean over nodes of land-cover share: croplands,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,variance inflation factor above 10
+node_croplands_std,node,standard deviation over nodes of land-cover share: croplands,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,variance inflation factor above 10
+node_croplands_min,node,minimum over nodes of land-cover share: croplands,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,variance inflation factor above 10
+node_croplands_max,node,maximum over nodes of land-cover share: croplands,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,variance inflation factor above 10
+node_deciduous_broadleaf_forest_mean,node,mean over nodes of land-cover share: deciduous broadleaf forest,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,correlation above 0.95
+node_deciduous_broadleaf_forest_std,node,standard deviation over nodes of land-cover share: deciduous broadleaf forest,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,variance inflation factor above 10
+node_deciduous_broadleaf_forest_min,node,minimum over nodes of land-cover share: deciduous broadleaf forest,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,variance inflation factor above 10
+node_deciduous_broadleaf_forest_max,node,maximum over nodes of land-cover share: deciduous broadleaf forest,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,variance inflation factor above 10
+node_deciduous_needleleaf_forest_mean,node,mean over nodes of land-cover share: deciduous needleleaf forest,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,variance inflation factor above 10
+node_deciduous_needleleaf_forest_std,node,standard deviation over nodes of land-cover share: deciduous needleleaf forest,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",True,
+node_deciduous_needleleaf_forest_min,node,minimum over nodes of land-cover share: deciduous needleleaf forest,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,variance inflation factor above 10
+node_deciduous_needleleaf_forest_max,node,maximum over nodes of land-cover share: deciduous needleleaf forest,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,variance inflation factor above 10
+node_difference_vegetation_index_mean,node,mean over nodes of vegetation index (NDVI),"GeoQuery: NASA LTDR v5 AVHRR, 2020",False,variance inflation factor above 10
+node_difference_vegetation_index_std,node,standard deviation over nodes of vegetation index (NDVI),"GeoQuery: NASA LTDR v5 AVHRR, 2020",False,variance inflation factor above 10
+node_difference_vegetation_index_min,node,minimum over nodes of vegetation index (NDVI),"GeoQuery: NASA LTDR v5 AVHRR, 2020",False,variance inflation factor above 10
+node_difference_vegetation_index_max,node,maximum over nodes of vegetation index (NDVI),"GeoQuery: NASA LTDR v5 AVHRR, 2020",False,variance inflation factor above 10
+node_dist_to_water_mean,node,mean over nodes of distance to water,GeoQuery,False,correlation above 0.95
+node_dist_to_water_std,node,standard deviation over nodes of distance to water,GeoQuery,False,variance inflation factor above 10
+node_dist_to_water_min,node,minimum over nodes of distance to water,GeoQuery,True,
+node_dist_to_water_max,node,maximum over nodes of distance to water,GeoQuery,False,variance inflation factor above 10
+node_distance_to_coast_mean,node,mean over nodes of distance to coast,GeoQuery: World Vector Shorelines v2.3.6,False,variance inflation factor above 10
+node_distance_to_coast_std,node,standard deviation over nodes of distance to coast,GeoQuery: World Vector Shorelines v2.3.6,False,variance inflation factor above 10
+node_distance_to_coast_min,node,minimum over nodes of distance to coast,GeoQuery: World Vector Shorelines v2.3.6,True,
+node_distance_to_coast_max,node,maximum over nodes of distance to coast,GeoQuery: World Vector Shorelines v2.3.6,False,correlation above 0.95
+node_elevation_mean,node,mean over nodes of elevation,GeoQuery: SRTM v4.1,False,variance inflation factor above 10
+node_elevation_std,node,standard deviation over nodes of elevation,GeoQuery: SRTM v4.1,False,variance inflation factor above 10
+node_elevation_min,node,minimum over nodes of elevation,GeoQuery: SRTM v4.1,False,variance inflation factor above 10
+node_elevation_max,node,maximum over nodes of elevation,GeoQuery: SRTM v4.1,False,variance inflation factor above 10
+node_evergreen_broadleaf_forest_mean,node,mean over nodes of land-cover share: evergreen broadleaf forest,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,variance inflation factor above 10
+node_evergreen_broadleaf_forest_std,node,standard deviation over nodes of land-cover share: evergreen broadleaf forest,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,correlation above 0.95
+node_evergreen_broadleaf_forest_min,node,minimum over nodes of land-cover share: evergreen broadleaf forest,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,correlation above 0.95
+node_evergreen_broadleaf_forest_max,node,maximum over nodes of land-cover share: evergreen broadleaf forest,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",True,
+node_evergreen_needleleaf_forest_mean,node,mean over nodes of land-cover share: evergreen needleleaf forest,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,correlation above 0.95
+node_evergreen_needleleaf_forest_std,node,standard deviation over nodes of land-cover share: evergreen needleleaf forest,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",True,
+node_evergreen_needleleaf_forest_min,node,minimum over nodes of land-cover share: evergreen needleleaf forest,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,correlation above 0.95
+node_evergreen_needleleaf_forest_max,node,maximum over nodes of land-cover share: evergreen needleleaf forest,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,variance inflation factor above 10
+node_fill_value_mean,node,mean over nodes of land-cover share: no land-cover value,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,near-zero variance
+node_fill_value_std,node,standard deviation over nodes of land-cover share: no land-cover value,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,near-zero variance
+node_fill_value_min,node,minimum over nodes of land-cover share: no land-cover value,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,near-zero variance
+node_fill_value_max,node,maximum over nodes of land-cover share: no land-cover value,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,near-zero variance
+node_grasslands_mean,node,mean over nodes of land-cover share: grasslands,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,correlation above 0.95
+node_grasslands_std,node,standard deviation over nodes of land-cover share: grasslands,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,variance inflation factor above 10
+node_grasslands_min,node,minimum over nodes of land-cover share: grasslands,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,correlation above 0.95
+node_grasslands_max,node,maximum over nodes of land-cover share: grasslands,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,correlation above 0.95
+node_mixed_forest_mean,node,mean over nodes of land-cover share: mixed forest,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,correlation above 0.95
+node_mixed_forest_std,node,standard deviation over nodes of land-cover share: mixed forest,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,correlation above 0.95
+node_mixed_forest_min,node,minimum over nodes of land-cover share: mixed forest,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,correlation above 0.95
+node_mixed_forest_max,node,maximum over nodes of land-cover share: mixed forest,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,correlation above 0.95
+node_open_shrublands_mean,node,mean over nodes of land-cover share: open shrublands,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,correlation above 0.95
+node_open_shrublands_std,node,standard deviation over nodes of land-cover share: open shrublands,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,correlation above 0.95
+node_open_shrublands_min,node,minimum over nodes of land-cover share: open shrublands,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",True,
+node_open_shrublands_max,node,maximum over nodes of land-cover share: open shrublands,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,correlation above 0.95
+node_permanent_wetlands_mean,node,mean over nodes of land-cover share: permanent wetlands,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,correlation above 0.95
+node_permanent_wetlands_std,node,standard deviation over nodes of land-cover share: permanent wetlands,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,variance inflation factor above 10
+node_permanent_wetlands_min,node,minimum over nodes of land-cover share: permanent wetlands,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,correlation above 0.95
+node_permanent_wetlands_max,node,maximum over nodes of land-cover share: permanent wetlands,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,correlation above 0.95
+node_savannas_mean,node,mean over nodes of land-cover share: savannas,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,correlation above 0.95
+node_savannas_std,node,standard deviation over nodes of land-cover share: savannas,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,variance inflation factor above 10
+node_savannas_min,node,minimum over nodes of land-cover share: savannas,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",True,
+node_savannas_max,node,maximum over nodes of land-cover share: savannas,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,variance inflation factor above 10
+node_slope_mean,node,mean over nodes of slope,GeoQuery: SRTM v4.1,False,correlation above 0.95
+node_slope_std,node,standard deviation over nodes of slope,GeoQuery: SRTM v4.1,False,variance inflation factor above 10
+node_slope_min,node,minimum over nodes of slope,GeoQuery: SRTM v4.1,False,variance inflation factor above 10
+node_slope_max,node,maximum over nodes of slope,GeoQuery: SRTM v4.1,False,variance inflation factor above 10
+node_snow_and_ice_mean,node,mean over nodes of land-cover share: snow and ice,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,correlation above 0.95
+node_snow_and_ice_std,node,standard deviation over nodes of land-cover share: snow and ice,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,correlation above 0.95
+node_snow_and_ice_min,node,minimum over nodes of land-cover share: snow and ice,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,variance inflation factor above 10
+node_snow_and_ice_max,node,maximum over nodes of land-cover share: snow and ice,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",True,
+node_unclassified_mean,node,mean over nodes of land-cover share: unclassified,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,near-zero variance
+node_unclassified_std,node,standard deviation over nodes of land-cover share: unclassified,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,near-zero variance
+node_unclassified_min,node,minimum over nodes of land-cover share: unclassified,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,near-zero variance
+node_unclassified_max,node,maximum over nodes of land-cover share: unclassified,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,near-zero variance
+node_urban_and_builtup_mean,node,mean over nodes of land-cover share: urban and built-up,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,correlation above 0.95
+node_urban_and_builtup_std,node,standard deviation over nodes of land-cover share: urban and built-up,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,variance inflation factor above 10
+node_urban_and_builtup_min,node,minimum over nodes of land-cover share: urban and built-up,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,correlation above 0.95
+node_urban_and_builtup_max,node,maximum over nodes of land-cover share: urban and built-up,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,correlation above 0.95
+node_water_mean,node,mean over nodes of land-cover share: water,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,correlation above 0.95
+node_water_std,node,standard deviation over nodes of land-cover share: water,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,correlation above 0.95
+node_water_min,node,minimum over nodes of land-cover share: water,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",True,
+node_water_max,node,maximum over nodes of land-cover share: water,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,variance inflation factor above 10
+node_wind_speed_potential_mean,node,mean over nodes of wind speed potential at 50 m,GeoQuery: Global Wind Atlas v2,False,correlation above 0.95
+node_wind_speed_potential_std,node,standard deviation over nodes of wind speed potential at 50 m,GeoQuery: Global Wind Atlas v2,True,
+node_wind_speed_potential_min,node,minimum over nodes of wind speed potential at 50 m,GeoQuery: Global Wind Atlas v2,False,variance inflation factor above 10
+node_wind_speed_potential_max,node,maximum over nodes of wind speed potential at 50 m,GeoQuery: Global Wind Atlas v2,False,variance inflation factor above 10
+node_woody_savannas_mean,node,mean over nodes of land-cover share: woody savannas,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,variance inflation factor above 10
+node_woody_savannas_std,node,standard deviation over nodes of land-cover share: woody savannas,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,correlation above 0.95
+node_woody_savannas_min,node,minimum over nodes of land-cover share: woody savannas,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,correlation above 0.95
+node_woody_savannas_max,node,maximum over nodes of land-cover share: woody savannas,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,correlation above 0.95
+node_InflowCount_mean,node,mean over nodes of links entering a node,OpenStreetMap,False,variance inflation factor above 10
+node_InflowCount_std,node,standard deviation over nodes of links entering a node,OpenStreetMap,True,
+node_InflowCount_min,node,minimum over nodes of links entering a node,OpenStreetMap,False,near-zero variance
+node_InflowCount_max,node,maximum over nodes of links entering a node,OpenStreetMap,False,variance inflation factor above 10
+node_OutflowCount_mean,node,mean over nodes of links leaving a node,OpenStreetMap,False,correlation above 0.95
+node_OutflowCount_std,node,standard deviation over nodes of links leaving a node,OpenStreetMap,False,correlation above 0.95
+node_OutflowCount_min,node,minimum over nodes of links leaving a node,OpenStreetMap,False,near-zero variance
+node_OutflowCount_max,node,maximum over nodes of links leaving a node,OpenStreetMap,False,correlation above 0.95
+Density (ppl/km^2),network,city population divided by the area of the detector hull,"compiled by hand, 2025; hull",True,
+nb_of_polygons,network,administrative polygons overlapping the detector hull,geoBoundaries,False,correlation above 0.95
+Area (km^2),network,area of the detector hull,OpenStreetMap hull,False,correlation above 0.95
+GDP (Million US$),network,"gridded GDP, area-weighted",GeoQuery: GDP grid,True,
+Pop Density (ppkm2),network,city population divided by city area,"compiled by hand, 2025",True,
+City Area (km^2),network,city area,"compiled by hand, 2025",False,not among the 428 candidates: no values or held fixed before pruning
+Income (USD/yr),network,median individual income,"compiled by hand, 2025",False,not among the 428 candidates: no values or held fixed before pruning
+City Population,network,city population,"compiled by hand, 2025",False,not among the 428 candidates: no values or held fixed before pruning
+Employment Rate (%),network,employment rate,"compiled by hand, 2025",True,
+F0,network,"women aged 0 (lower edge of the age group), summed over the hull",WorldPop 2020 constrained,False,correlation above 0.95
+F1,network,"women aged 1 (lower edge of the age group), summed over the hull",WorldPop 2020 constrained,False,correlation above 0.95
+F5,network,"women aged 5 (lower edge of the age group), summed over the hull",WorldPop 2020 constrained,False,correlation above 0.95
+F10,network,"women aged 10 (lower edge of the age group), summed over the hull",WorldPop 2020 constrained,False,correlation above 0.95
+F15,network,"women aged 15 (lower edge of the age group), summed over the hull",WorldPop 2020 constrained,False,correlation above 0.95
+F20,network,"women aged 20 (lower edge of the age group), summed over the hull",WorldPop 2020 constrained,False,correlation above 0.95
+F25,network,"women aged 25 (lower edge of the age group), summed over the hull",WorldPop 2020 constrained,False,correlation above 0.95
+F30,network,"women aged 30 (lower edge of the age group), summed over the hull",WorldPop 2020 constrained,False,correlation above 0.95
+F35,network,"women aged 35 (lower edge of the age group), summed over the hull",WorldPop 2020 constrained,False,correlation above 0.95
+F40,network,"women aged 40 (lower edge of the age group), summed over the hull",WorldPop 2020 constrained,False,correlation above 0.95
+F45,network,"women aged 45 (lower edge of the age group), summed over the hull",WorldPop 2020 constrained,False,correlation above 0.95
+F50,network,"women aged 50 (lower edge of the age group), summed over the hull",WorldPop 2020 constrained,False,correlation above 0.95
+F55,network,"women aged 55 (lower edge of the age group), summed over the hull",WorldPop 2020 constrained,False,correlation above 0.95
+F60,network,"women aged 60 (lower edge of the age group), summed over the hull",WorldPop 2020 constrained,False,correlation above 0.95
+F65,network,"women aged 65 (lower edge of the age group), summed over the hull",WorldPop 2020 constrained,False,correlation above 0.95
+F70,network,"women aged 70 (lower edge of the age group), summed over the hull",WorldPop 2020 constrained,False,correlation above 0.95
+F75,network,"women aged 75 (lower edge of the age group), summed over the hull",WorldPop 2020 constrained,False,correlation above 0.95
+F80,network,"women aged 80 (lower edge of the age group), summed over the hull",WorldPop 2020 constrained,False,variance inflation factor above 10
+M0,network,"men aged 0 (lower edge of the age group), summed over the hull",WorldPop 2020 constrained,False,correlation above 0.95
+M1,network,"men aged 1 (lower edge of the age group), summed over the hull",WorldPop 2020 constrained,False,correlation above 0.95
+M5,network,"men aged 5 (lower edge of the age group), summed over the hull",WorldPop 2020 constrained,False,correlation above 0.95
+M10,network,"men aged 10 (lower edge of the age group), summed over the hull",WorldPop 2020 constrained,False,correlation above 0.95
+M15,network,"men aged 15 (lower edge of the age group), summed over the hull",WorldPop 2020 constrained,False,correlation above 0.95
+M20,network,"men aged 20 (lower edge of the age group), summed over the hull",WorldPop 2020 constrained,False,correlation above 0.95
+M25,network,"men aged 25 (lower edge of the age group), summed over the hull",WorldPop 2020 constrained,False,correlation above 0.95
+M30,network,"men aged 30 (lower edge of the age group), summed over the hull",WorldPop 2020 constrained,False,variance inflation factor above 10
+M35,network,"men aged 35 (lower edge of the age group), summed over the hull",WorldPop 2020 constrained,False,correlation above 0.95
+M40,network,"men aged 40 (lower edge of the age group), summed over the hull",WorldPop 2020 constrained,False,correlation above 0.95
+M45,network,"men aged 45 (lower edge of the age group), summed over the hull",WorldPop 2020 constrained,False,correlation above 0.95
+M50,network,"men aged 50 (lower edge of the age group), summed over the hull",WorldPop 2020 constrained,False,correlation above 0.95
+M55,network,"men aged 55 (lower edge of the age group), summed over the hull",WorldPop 2020 constrained,False,correlation above 0.95
+M60,network,"men aged 60 (lower edge of the age group), summed over the hull",WorldPop 2020 constrained,False,correlation above 0.95
+M65,network,"men aged 65 (lower edge of the age group), summed over the hull",WorldPop 2020 constrained,False,correlation above 0.95
+M70,network,"men aged 70 (lower edge of the age group), summed over the hull",WorldPop 2020 constrained,False,correlation above 0.95
+M75,network,"men aged 75 (lower edge of the age group), summed over the hull",WorldPop 2020 constrained,False,correlation above 0.95
+M80,network,"men aged 80 (lower edge of the age group), summed over the hull",WorldPop 2020 constrained,False,correlation above 0.95
+Longitude,network,longitude,hull,False,variance inflation factor above 10
+Latitude,network,latitude,hull,False,variance inflation factor above 10
+01_day_st,network,"daytime land surface temperature, month 01","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,correlation above 0.95
+01_night_st,network,"nighttime land surface temperature, month 01","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,correlation above 0.95
+01_precip,network,"precipitation, month 01","GeoQuery: CRU TS v4.07, 2022",False,correlation above 0.95
+02_day_st,network,"daytime land surface temperature, month 02","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,correlation above 0.95
+02_night_st,network,"nighttime land surface temperature, month 02","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,correlation above 0.95
+02_precip,network,"precipitation, month 02","GeoQuery: CRU TS v4.07, 2022",False,variance inflation factor above 10
+03_day_st,network,"daytime land surface temperature, month 03","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,variance inflation factor above 10
+03_night_st,network,"nighttime land surface temperature, month 03","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,correlation above 0.95
+03_precip,network,"precipitation, month 03","GeoQuery: CRU TS v4.07, 2022",False,correlation above 0.95
+04_day_st,network,"daytime land surface temperature, month 04","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,correlation above 0.95
+04_night_st,network,"nighttime land surface temperature, month 04","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,correlation above 0.95
+04_precip,network,"precipitation, month 04","GeoQuery: CRU TS v4.07, 2022",False,correlation above 0.95
+05_day_st,network,"daytime land surface temperature, month 05","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,variance inflation factor above 10
+05_night_st,network,"nighttime land surface temperature, month 05","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,correlation above 0.95
+05_precip,network,"precipitation, month 05","GeoQuery: CRU TS v4.07, 2022",False,correlation above 0.95
+06_day_st,network,"daytime land surface temperature, month 06","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,correlation above 0.95
+06_night_st,network,"nighttime land surface temperature, month 06","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,correlation above 0.95
+06_precip,network,"precipitation, month 06","GeoQuery: CRU TS v4.07, 2022",False,correlation above 0.95
+07_day_st,network,"daytime land surface temperature, month 07","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,correlation above 0.95
+07_night_st,network,"nighttime land surface temperature, month 07","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,correlation above 0.95
+07_precip,network,"precipitation, month 07","GeoQuery: CRU TS v4.07, 2022",False,correlation above 0.95
+08_day_st,network,"daytime land surface temperature, month 08","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,correlation above 0.95
+08_night_st,network,"nighttime land surface temperature, month 08","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,variance inflation factor above 10
+08_precip,network,"precipitation, month 08","GeoQuery: CRU TS v4.07, 2022",False,variance inflation factor above 10
+09_day_st,network,"daytime land surface temperature, month 09","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,variance inflation factor above 10
+09_night_st,network,"nighttime land surface temperature, month 09","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,correlation above 0.95
+09_precip,network,"precipitation, month 09","GeoQuery: CRU TS v4.07, 2022",False,variance inflation factor above 10
+10_day_st,network,"daytime land surface temperature, month 10","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,correlation above 0.95
+10_night_st,network,"nighttime land surface temperature, month 10","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,correlation above 0.95
+10_precip,network,"precipitation, month 10","GeoQuery: CRU TS v4.07, 2022",False,correlation above 0.95
+11_day_st,network,"daytime land surface temperature, month 11","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,correlation above 0.95
+11_night_st,network,"nighttime land surface temperature, month 11","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,correlation above 0.95
+11_precip,network,"precipitation, month 11","GeoQuery: CRU TS v4.07, 2022",False,correlation above 0.95
+12_day_st,network,"daytime land surface temperature, month 12","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,correlation above 0.95
+12_night_st,network,"nighttime land surface temperature, month 12","GeoQuery: MODIS MOD11C3 v6.1, 2023",False,correlation above 0.95
+12_precip,network,"precipitation, month 12","GeoQuery: CRU TS v4.07, 2022",False,variance inflation factor above 10
+barren_or_sparsely_vegetated,network,land-cover share: barren or sparsely vegetated,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,correlation above 0.95
+closed_shrublands,network,land-cover share: closed shrublands,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,correlation above 0.95
+cropland_natural_vegetation_mosaic,network,land-cover share: cropland and natural vegetation mosaic,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",True,
+croplands,network,land-cover share: croplands,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,correlation above 0.95
+deciduous_broadleaf_forest,network,land-cover share: deciduous broadleaf forest,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",True,
+deciduous_needleleaf_forest,network,land-cover share: deciduous needleleaf forest,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,correlation above 0.95
+difference_vegetation_index,network,vegetation index (NDVI),"GeoQuery: NASA LTDR v5 AVHRR, 2020",False,correlation above 0.95
+dist_to_water,network,distance to water,GeoQuery,False,correlation above 0.95
+distance_to_coast,network,distance to coast,GeoQuery: World Vector Shorelines v2.3.6,False,correlation above 0.95
+elevation,network,elevation,GeoQuery: SRTM v4.1,False,correlation above 0.95
+evergreen_broadleaf_forest,network,land-cover share: evergreen broadleaf forest,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,correlation above 0.95
+evergreen_needleleaf_forest,network,land-cover share: evergreen needleleaf forest,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,correlation above 0.95
+fill_value,network,land-cover share: no land-cover value,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,near-zero variance
+grasslands,network,land-cover share: grasslands,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,correlation above 0.95
+mixed_forest,network,land-cover share: mixed forest,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,correlation above 0.95
+open_shrublands,network,land-cover share: open shrublands,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,correlation above 0.95
+permanent_wetlands,network,land-cover share: permanent wetlands,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,correlation above 0.95
+savannas,network,land-cover share: savannas,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,correlation above 0.95
+slope,network,slope,GeoQuery: SRTM v4.1,False,variance inflation factor above 10
+snow_and_ice,network,land-cover share: snow and ice,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",True,
+unclassified,network,land-cover share: unclassified,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,near-zero variance
+urban_and_builtup,network,land-cover share: urban and built-up,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,variance inflation factor above 10
+water,network,land-cover share: water,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,correlation above 0.95
+wind_speed_potential,network,wind speed potential at 50 m,GeoQuery: Global Wind Atlas v2,False,variance inflation factor above 10
+woody_savannas,network,land-cover share: woody savannas,"GeoQuery: MODIS MCD12Q1 v5.1, 2012",False,correlation above 0.95
+kept_rows_classes,network,links kept by the road-class filter,OpenStreetMap,False,variance inflation factor above 10
+kept_prop_classes,network,share of links kept by the road-class filter,OpenStreetMap,True,
+kept_prop_access,network,share of links kept by the access filter,OpenStreetMap,False,variance inflation factor above 10
+link_Class_secondary_link,link,share of links of class secondary_link,OpenStreetMap,False,variance inflation factor above 10
+link_Class_tertiary_link,link,share of links of class tertiary_link,OpenStreetMap,True,
+link_Access_destination,link,share of links with access tag destination,OpenStreetMap,True,
+link_Access_permissive,link,share of links with access tag permissive,OpenStreetMap,True,
+link_Access_restricted,link,share of links with access tag restricted,OpenStreetMap,True,
+link_Access_permit,link,share of links with access tag permit,OpenStreetMap,True,
+link_Access_residents,link,share of links with access tag residents,OpenStreetMap,True,
+link_Access_bus,link,share of links with access tag bus,OpenStreetMap,True,
+link_Access_customers,link,share of links with access tag customers,OpenStreetMap,True,
+link_Class_residential_link,link,share of links of class residential_link,OpenStreetMap,True,
+link_Access_emergency,link,share of links with access tag emergency,OpenStreetMap,True,
+link_Access_discouraged,link,share of links with access tag discouraged,OpenStreetMap,True,
+link_Access_psv,link,share of links with access tag psv,OpenStreetMap,True,
+link_Access_designated,link,share of links with access tag designated,OpenStreetMap,True,
+link_Access_official,link,share of links with access tag official,OpenStreetMap,True,
+link_Access_delivery,link,share of links with access tag delivery,OpenStreetMap,True,
+link_Access_agricultural,link,share of links with access tag agricultural,OpenStreetMap,True,
+link_Access_hov,link,share of links with access tag hov,OpenStreetMap,False,correlation above 0.95
+link_Access_forestry,link,share of links with access tag forestry,OpenStreetMap,True,
+link_Access_service,link,share of links with access tag service,OpenStreetMap,True,

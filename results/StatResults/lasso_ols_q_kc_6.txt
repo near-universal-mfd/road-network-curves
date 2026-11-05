@@ -1,0 +1,43 @@
+# Target: q_kc/6 (VALIDATION set)
+== Metrics on VALIDATION ==
+R2 = 0.008240
+MAE = 101.611065
+RMSE = 125.660060
+
+(Trained via LASSO→OLS on TRAIN; selected features listed below for traceability.)
+Selected features (from TRAIN):
+  - link_Class_primary
+  - link_Class_tertiary
+  - link_Class_trunk
+  - link_Class_trunk_link
+  - link_Access_yes
+  - link_Bridge_frac
+  - link_Tunnel_frac
+  - link_Roundabout_frac
+  - link_num_detectors_mean
+  - link_num_detectors_max
+  - link_LinkLength_max
+  - link_Curvature_std
+  - link_SpeedLimit_max
+  - link_avg_detector_pos_mean
+  - link_avg_detector_pos_std
+  - node_01_day_st_std
+  - node_03_night_st_std
+  - node_08_precip_min
+  - node_12_day_st_std
+  - node_12_day_st_min
+  - node_deciduous_needleleaf_forest_std
+  - node_evergreen_broadleaf_forest_max
+  - node_savannas_min
+  - node_InflowCount_std
+  - GDP (Million US$)
+  - deciduous_broadleaf_forest
+  - kept_prop_classes
+  - link_Class_tertiary_link
+  - link_Access_destination
+  - link_Access_permissive
+  - link_Access_restricted
+  - link_Access_permit
+  - link_Class_residential_link
+  - link_Access_official
+  - link_Access_agricultural

@@ -1,0 +1,11 @@
+# Only for the steps that read the original downloads (run_all.py --from-raw, and raw_processing/).
+shapely==2.0.6
+pyproj==3.7.0
+openpyxl==3.1.2
+geopandas==1.0.1
+osmnx==2.0.4
+rasterio==1.4.3
+rasterstats==0.20.0
+geopy==2.4.1
+requests==2.32.5
+beautifulsoup4==4.12.2

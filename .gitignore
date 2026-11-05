@@ -1,0 +1,9 @@
+# Reruns and raw downloads stay local
+work/
+raw/
+demo/output/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+predicted_curve.*

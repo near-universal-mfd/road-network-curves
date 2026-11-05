@@ -1,0 +1,18 @@
+feature,VIP,ElasticNet,Spearman,RF,LASSO,count_methods,group
+GDP (Million US$),1,1,1,1,1,5,GDP
+Pop Density (ppkm2),1,1,1,1,1,5,Population Density
+link_Class_primary_link,1,1,1,1,1,5,"Link Class (primary, secondary,...)"
+link_Class_secondary,1,1,1,1,1,5,"Link Class (primary, secondary,...)"
+link_LinkLength_max,1,1,1,1,1,5,Link Length
+link_SpeedLimit_min,1,1,1,1,1,5,Speed Limit
+link_Tunnel_frac,1,1,1,1,1,5,Fraction of Tunnels
+link_num_detectors_max,1,1,1,1,1,5,Detector Distribution
+kept_prop_classes,1,1,1,1,0,4,"Link Class (primary, secondary,...)"
+link_Access_destination,1,1,1,1,0,4,Access Restrictions
+link_Access_permit,1,1,0,1,1,4,Access Restrictions
+link_Class_trunk,1,1,1,1,0,4,"Link Class (primary, secondary,...)"
+link_SpeedLimit_missing_frac,1,1,1,1,0,4,Speed Limit Availability
+link_avg_detector_pos_std,1,1,1,1,0,4,Detector Distribution
+link_num_detectors_mean,1,1,0,1,1,4,Detector Distribution
+node_12_day_st_std,1,1,1,1,0,4,Surface Temperature
+node_distance_to_coast_min,1,1,0,1,1,4,Distance to Coast

@@ -1,0 +1,16 @@
+# Python 3.11. These are the packages the pipeline imports, at the versions that produced the paper's results.
+# requirements-lock.txt adds every dependency, as installed in the clean environment this repository was tested in.
+numpy==1.26.2
+pandas==2.3.0
+scipy==1.11.4
+scikit-learn==1.7.0
+statsmodels==0.14.5
+matplotlib==3.8.2
+joblib==1.3.2
+pillow==10.1.0
+nbformat==5.9.2
+nbclient==0.8.0
+ipykernel==6.25.0
+ipython==8.15.0
+jupyter_client==8.6.0
+tqdm==4.67.1

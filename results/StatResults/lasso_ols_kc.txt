@@ -1,0 +1,87 @@
+# Target: kc
+LASSO alpha: 0.5736152510448681
+Selected features:
+  - link_Class_primary_link
+  - link_Class_secondary
+  - link_Class_tertiary
+  - link_Class_trunk_link
+  - link_Tunnel_frac
+  - link_Lanes_min
+  - link_num_detectors_mean
+  - link_num_detectors_max
+  - link_LinkLength_max
+  - link_Curvature_q50
+  - link_SpeedLimit_min
+  - link_avg_detector_pos_mean
+  - node_08_precip_min
+  - node_12_day_st_min
+  - node_deciduous_needleleaf_forest_std
+  - node_distance_to_coast_min
+  - GDP (Million US$)
+  - Pop Density (ppkm2)
+  - Employment Rate (%)
+  - cropland_natural_vegetation_mosaic
+  - deciduous_broadleaf_forest
+  - link_Class_tertiary_link
+  - link_Access_permissive
+  - link_Access_permit
+  - link_Access_customers
+  - link_Access_psv
+  - link_Access_official
+  - link_Access_delivery
+  - link_Access_agricultural
+
+--- OLS Summary ---
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.704
+Model:                            OLS   Adj. R-squared:                  0.610
+Method:                 Least Squares   F-statistic:                     7.474
+Date:                Tue, 03 Nov 2026   Prob (F-statistic):           6.23e-14
+Time:                        01:48:23   Log-Likelihood:                -381.65
+No. Observations:                 121   AIC:                             823.3
+Df Residuals:                      91   BIC:                             907.2
+Df Model:                          29                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         37.5112      7.310      5.132      0.000      22.992      52.031
+x1             0.4188      0.402      1.042      0.300      -0.379       1.217
+x2             1.2895      0.613      2.102      0.038       0.071       2.508
+x3            -0.5319      0.783     -0.679      0.499      -2.088       1.024
+x4             0.3172      0.378      0.840      0.403      -0.433       1.067
+x5             0.6551      0.326      2.011      0.047       0.008       1.302
+x6            -0.3100      0.293     -1.058      0.293      -0.892       0.272
+x7             4.1374      0.853      4.849      0.000       2.442       5.832
+x8             1.7978      0.677      2.657      0.009       0.454       3.142
+x9            -0.8727      0.741     -1.178      0.242      -2.344       0.598
+x10           -0.3626      0.267     -1.358      0.178      -0.893       0.168
+x11           -0.3233      0.566     -0.571      0.569      -1.447       0.800
+x12            0.7380      0.571      1.292      0.200      -0.397       1.873
+x13            0.9527      0.772      1.234      0.220      -0.581       2.486
+x14           -0.4241      0.673     -0.630      0.530      -1.761       0.913
+x15            0.5722      0.271      2.111      0.037       0.034       1.110
+x16            1.6088      0.698      2.305      0.023       0.223       2.995
+x17            0.4421      1.133      0.390      0.697      -1.809       2.694
+x18            0.8921      0.747      1.194      0.235      -0.592       2.376
+x19            1.9821      0.703      2.821      0.006       0.586       3.378
+x20           -1.8440      0.997     -1.850      0.068      -3.824       0.136
+x21            0.2105      0.235      0.897      0.372      -0.256       0.677
+x22            0.8616      0.343      2.513      0.014       0.181       1.542
+x23            0.4240      0.259      1.639      0.105      -0.090       0.938
+x24           -0.5866      0.341     -1.721      0.089      -1.264       0.090
+x25            0.8195      0.336      2.442      0.017       0.153       1.486
+x26           -0.5610      0.507     -1.107      0.271      -1.568       0.446
+x27            1.0815      0.689      1.569      0.120      -0.288       2.451
+x28           -0.8469      0.554     -1.529      0.130      -1.947       0.253
+x29            1.9159      0.676      2.834      0.006       0.573       3.259
+==============================================================================
+Omnibus:                        6.216   Durbin-Watson:                   1.705
+Prob(Omnibus):                  0.045   Jarque-Bera (JB):                5.695
+Skew:                           0.491   Prob(JB):                       0.0580
+Kurtosis:                       3.407   Cond. No.                         177.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

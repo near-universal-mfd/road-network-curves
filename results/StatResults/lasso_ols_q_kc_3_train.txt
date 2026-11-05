@@ -1,0 +1,101 @@
+# Target: q_kc/3 (TRAIN set)
+LASSO alpha: 7.278953843983146
+Selected features:
+  - link_Class_primary
+  - link_Class_tertiary
+  - link_Class_trunk
+  - link_Class_trunk_link
+  - link_Access_yes
+  - link_Tunnel_frac
+  - link_SpeedLimit_missing_frac
+  - link_Roundabout_frac
+  - link_Lanes_min
+  - link_num_detectors_mean
+  - link_num_detectors_max
+  - link_LinkLength_max
+  - link_SpeedLimit_max
+  - link_avg_detector_pos_mean
+  - link_avg_detector_pos_std
+  - node_01_day_st_std
+  - node_03_night_st_std
+  - node_08_precip_min
+  - node_10_precip_std
+  - node_12_day_st_std
+  - node_12_day_st_min
+  - node_deciduous_needleleaf_forest_std
+  - node_evergreen_broadleaf_forest_max
+  - node_savannas_min
+  - node_InflowCount_std
+  - GDP (Million US$)
+  - kept_prop_classes
+  - link_Access_destination
+  - link_Access_permissive
+  - link_Access_restricted
+  - link_Access_permit
+  - link_Access_customers
+  - link_Class_residential_link
+  - link_Access_official
+  - link_Access_agricultural
+  - link_Access_forestry
+
+--- OLS Summary (TRAIN) ---
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.765
+Model:                            OLS   Adj. R-squared:                  0.664
+Method:                 Least Squares   F-statistic:                     7.584
+Date:                Tue, 03 Nov 2026   Prob (F-statistic):           1.33e-14
+Time:                        01:52:36   Log-Likelihood:                -742.85
+No. Observations:                 121   AIC:                             1560.
+Df Residuals:                      84   BIC:                             1663.
+Df Model:                          36                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const        459.2914    202.382      2.269      0.026      56.833     861.750
+x1            32.7584     11.134      2.942      0.004      10.617      54.900
+x2            12.0522     15.621      0.772      0.443     -19.012      43.117
+x3            19.5731     10.135      1.931      0.057      -0.582      39.728
+x4             4.7049      8.460      0.556      0.580     -12.120      21.529
+x5           -10.1437      6.972     -1.455      0.149     -24.007       3.720
+x6             7.6163      6.886      1.106      0.272      -6.076      21.309
+x7             2.7511     14.053      0.196      0.845     -25.194      30.697
+x8            23.2591     12.103      1.922      0.058      -0.810      47.328
+x9            12.2035      6.620      1.843      0.069      -0.962      25.369
+x10          -21.7846     21.845     -0.997      0.322     -65.226      21.657
+x11           67.2379     15.802      4.255      0.000      35.814      98.662
+x12           19.3710     17.803      1.088      0.280     -16.032      54.774
+x13           -3.8548     11.315     -0.341      0.734     -26.355      18.645
+x14           12.5779     12.733      0.988      0.326     -12.742      37.898
+x15          -50.3069     16.924     -2.973      0.004     -83.961     -16.652
+x16          -36.3469     17.442     -2.084      0.040     -71.032      -1.662
+x17            5.4355     17.157      0.317      0.752     -28.682      39.553
+x18          -31.6851     22.665     -1.398      0.166     -76.757      13.387
+x19            0.7466      6.344      0.118      0.907     -11.870      13.363
+x20           -6.1583     21.519     -0.286      0.775     -48.952      36.636
+x21          -32.1414     17.382     -1.849      0.068     -66.707       2.424
+x22            2.0616      5.409      0.381      0.704      -8.695      12.818
+x23           17.4263      7.386      2.359      0.021       2.739      32.114
+x24           20.8873     14.501      1.440      0.153      -7.949      49.723
+x25           10.0623     12.939      0.778      0.439     -15.668      35.793
+x26           83.9157     27.907      3.007      0.003      28.420     139.412
+x27           42.1104     16.437      2.562      0.012       9.424      74.797
+x28           -4.9785      5.664     -0.879      0.382     -16.241       6.284
+x29           13.7833      5.286      2.608      0.011       3.272      24.295
+x30          -10.7278     11.146     -0.963      0.339     -32.892      11.437
+x31          -11.7667      7.000     -1.681      0.096     -25.687       2.154
+x32           -0.8080      8.014     -0.101      0.920     -16.745      15.129
+x33          -24.1474     18.772     -1.286      0.202     -61.477      13.183
+x34          -22.3255     14.475     -1.542      0.127     -51.110       6.459
+x35          -10.0062     14.034     -0.713      0.478     -37.914      17.902
+x36           32.9456     18.461      1.785      0.078      -3.767      69.658
+==============================================================================
+Omnibus:                        7.209   Durbin-Watson:                   1.819
+Prob(Omnibus):                  0.027   Jarque-Bera (JB):                6.888
+Skew:                           0.493   Prob(JB):                       0.0319
+Kurtosis:                       3.629   Cond. No.                         265.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

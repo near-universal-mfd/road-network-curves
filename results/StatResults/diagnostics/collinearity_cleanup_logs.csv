@@ -1,0 +1,2 @@
+n_start,n_after_variance,dropped_variance,n_after_dedup,dropped_dedup,corr_threshold_used,n_after_corr,dropped_correlation,max_vif_used,n_after_vif,dropped_vif,n_final,total_dropped
+428,413,15,413,0,0.95,224,189,10.0,74,150,74,354

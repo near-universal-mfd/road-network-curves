@@ -1,0 +1,49 @@
+# Target: flow_pca2
+LASSO alpha: 0.11721022975334805
+Selected features:
+  - link_Class_primary
+  - link_Class_secondary
+  - link_SpeedLimit_missing_frac
+  - link_LinkLength_max
+  - link_Curvature_std
+  - node_03_night_st_std
+  - node_04_day_st_std
+  - node_12_day_st_std
+  - kept_prop_classes
+  - link_Access_official
+
+--- OLS Summary ---
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.307
+Model:                            OLS   Adj. R-squared:                  0.244
+Method:                 Least Squares   F-statistic:                     4.863
+Date:                Tue, 03 Nov 2026   Prob (F-statistic):           8.55e-06
+Time:                        01:49:46   Log-Likelihood:                -124.72
+No. Observations:                 121   AIC:                             271.4
+Df Residuals:                     110   BIC:                             302.2
+Df Model:                          10                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.5992      0.360     -1.667      0.098      -1.312       0.113
+x1             0.1090      0.048      2.295      0.024       0.015       0.203
+x2            -0.1006      0.061     -1.661      0.099      -0.220       0.019
+x3             0.0448      0.063      0.715      0.476      -0.079       0.169
+x4             0.1112      0.062      1.796      0.075      -0.012       0.234
+x5             0.1331      0.060      2.207      0.029       0.014       0.253
+x6             0.0556      0.082      0.681      0.498      -0.106       0.217
+x7             0.0761      0.075      1.009      0.315      -0.073       0.225
+x8             0.0296      0.072      0.409      0.684      -0.114       0.173
+x9             0.1166      0.064      1.811      0.073      -0.011       0.244
+x10           -0.1156      0.069     -1.669      0.098      -0.253       0.022
+==============================================================================
+Omnibus:                       13.567   Durbin-Watson:                   1.753
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               15.966
+Skew:                          -0.676   Prob(JB):                     0.000341
+Kurtosis:                       4.156   Cond. No.                         30.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

@@ -1,0 +1,43 @@
+# Target: flow_pca1
+LASSO alpha: 0.3039195382313198
+Selected features:
+  - link_Class_motorway
+  - link_Class_primary
+  - link_Class_primary_link
+  - link_Tunnel_frac
+  - link_LinkLength_max
+  - Pop Density (ppkm2)
+  - link_Access_residents
+
+--- OLS Summary ---
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.378
+Model:                            OLS   Adj. R-squared:                  0.339
+Method:                 Least Squares   F-statistic:                     9.791
+Date:                Tue, 03 Nov 2026   Prob (F-statistic):           1.71e-09
+Time:                        01:49:09   Log-Likelihood:                -229.03
+No. Observations:                 121   AIC:                             474.1
+Df Residuals:                     113   BIC:                             496.4
+Df Model:                           7                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.9150      0.461      1.983      0.050       0.001       1.829
+x1            -0.3820      0.128     -2.975      0.004      -0.636      -0.128
+x2             0.1962      0.119      1.645      0.103      -0.040       0.433
+x3             0.0196      0.080      0.245      0.807      -0.139       0.178
+x4             0.2152      0.075      2.855      0.005       0.066       0.364
+x5            -0.2880      0.158     -1.825      0.071      -0.601       0.025
+x6             0.0609      0.171      0.357      0.722      -0.277       0.399
+x7             0.1461      0.091      1.612      0.110      -0.033       0.326
+==============================================================================
+Omnibus:                        0.805   Durbin-Watson:                   1.792
+Prob(Omnibus):                  0.669   Jarque-Bera (JB):                0.587
+Skew:                          -0.169   Prob(JB):                        0.746
+Kurtosis:                       3.051   Cond. No.                         17.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

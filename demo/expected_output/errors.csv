@@ -1,0 +1,25 @@
+network,form,RMSE,MAE
+Cagliari,Cubic,0.206931,0.166545
+Cagliari,Greenshields,0.078217,0.063290
+Cagliari,Underwood,0.158155,0.136510
+Cagliari,Drake,0.131089,0.106157
+Cagliari,"Equation (5), paper's constants",0.080902,0.064146
+Wanborough,Cubic,0.028228,0.017590
+Wanborough,Greenshields,0.113793,0.080890
+Wanborough,Underwood,0.174951,0.125450
+Wanborough,Drake,0.058363,0.039752
+Wanborough,"Equation (5), paper's constants",0.022992,0.010900
+Bordeaux,Cubic,0.169513,0.117984
+Bordeaux,Greenshields,0.054457,0.043151
+Bordeaux,Underwood,0.162696,0.128076
+Bordeaux,Drake,0.084683,0.062821
+Bordeaux,"Equation (5), paper's constants",0.047120,0.038693
+Konstanz,Cubic,0.175696,0.131348
+Konstanz,Greenshields,0.038749,0.029878
+Konstanz,Underwood,0.137516,0.106377
+Konstanz,Drake,0.095224,0.073891
+Konstanz,"Equation (5), paper's constants",0.035933,0.026071
+Cagliari,"Equation (5), refitted on the four",0.081360,0.064707
+Wanborough,"Equation (5), refitted on the four",0.021928,0.010502
+Bordeaux,"Equation (5), refitted on the four",0.043559,0.035319
+Konstanz,"Equation (5), refitted on the four",0.033028,0.025309

@@ -1,0 +1,76 @@
+network_or_dataset,stage,decision,rule,reason,source
+augsburg,UTD19 part 1,limits on detector records,flow <= 3000; occupancy <= 1; density from occupancy,physically invalid values,"raw_processing/R/dataD.xlsx, raw_processing/R/6m_clean_final.R"
+basel,UTD19 part 2,limits on detector records,density from occupancy,physically invalid values,"raw_processing/R/dataD.xlsx, raw_processing/R/6m_clean_final.R"
+bern,UTD19 part 3,limits on detector records,flow <= 3000; occupancy <= 1; density from occupancy,physically invalid values,"raw_processing/R/dataD.xlsx, raw_processing/R/6m_clean_final.R"
+birmingham,UTD19 part 4,limits on detector records,flow <= 3000; speed <= 105; density from flow and speed,physically invalid values,"raw_processing/R/dataD.xlsx, raw_processing/R/6m_clean_final.R"
+bolton,UTD19 part 5,limits on detector records,flow <= 3000; speed <= 105; density from flow and speed,"Corrected for this package. The row first read flow Y, occ 1, speed N (density from occupancy), but the network file the paper uses is built from flow/speed with these limits (scripts/check_aggregation.py reproduces it).","raw_processing/R/dataD.xlsx, raw_processing/R/6m_clean_final.R"
+bordeaux,UTD19 part 6,limits on detector records,flow <= 3000; density from occupancy,physically invalid values,"raw_processing/R/dataD.xlsx, raw_processing/R/6m_clean_final.R"
+bremen,UTD19 part 7,limits on detector records,flow <= 3000; occupancy <= 1; density from occupancy,physically invalid values,"raw_processing/R/dataD.xlsx, raw_processing/R/6m_clean_final.R"
+cagliari,UTD19 part 8,limits on detector records,flow <= 3000; density from occupancy,physically invalid values,"raw_processing/R/dataD.xlsx, raw_processing/R/6m_clean_final.R"
+constance,UTD19 part 9,limits on detector records,speed <= 105; density from flow and speed,physically invalid values,"raw_processing/R/dataD.xlsx, raw_processing/R/6m_clean_final.R"
+darmstadt,UTD19 part 10,limits on detector records,flow <= 3000; occupancy <= 1; density from occupancy,physically invalid values,"raw_processing/R/dataD.xlsx, raw_processing/R/6m_clean_final.R"
+essen,UTD19 part 11,limits on detector records,speed <= 105; density from flow and speed,1 NA in speed (can be replaced by occ). Some illogical speeds,"raw_processing/R/dataD.xlsx, raw_processing/R/6m_clean_final.R"
+frankfurt,UTD19 part 12,limits on detector records,occupancy <= 1; density from occupancy,physically invalid values,"raw_processing/R/dataD.xlsx, raw_processing/R/6m_clean_final.R"
+graz,UTD19 part 13,limits on detector records,occupancy <= 1; density from occupancy,physically invalid values,"raw_processing/R/dataD.xlsx, raw_processing/R/6m_clean_final.R"
+groningen,UTD19 part 14,limits on detector records,speed <= 105; density from flow and speed,Don't use occ (some inf),"raw_processing/R/dataD.xlsx, raw_processing/R/6m_clean_final.R"
+hamburg,UTD19 part 15,limits on detector records,flow <= 3000; density from occupancy,physically invalid values,"raw_processing/R/dataD.xlsx, raw_processing/R/6m_clean_final.R"
+innsbruck,UTD19 part 16,limits on detector records,flow <= 3000; density from flow and speed,physically invalid values,"raw_processing/R/dataD.xlsx, raw_processing/R/6m_clean_final.R"
+kassel,UTD19 part 17,limits on detector records,flow <= 3000; occupancy <= 1; density from occupancy,physically invalid values,"raw_processing/R/dataD.xlsx, raw_processing/R/6m_clean_final.R"
+london,UTD19 part 18,limits on detector records,flow <= 3000; density from occupancy,physically invalid values,"raw_processing/R/dataD.xlsx, raw_processing/R/6m_clean_final.R"
+losangeles,UTD19 part 19,limits on detector records,flow <= 3000; density from occupancy,physically invalid values,"raw_processing/R/dataD.xlsx, raw_processing/R/6m_clean_final.R"
+luzern,UTD19 part 20,limits on detector records,flow <= 3000; occupancy <= 1; density from occupancy,Some weird values,"raw_processing/R/dataD.xlsx, raw_processing/R/6m_clean_final.R"
+madrid,UTD19 part 21,limits on detector records,flow <= 3000; occupancy <= 1; density from occupancy,Some weird values,"raw_processing/R/dataD.xlsx, raw_processing/R/6m_clean_final.R"
+melbourne,UTD19 part 22,dropped,,"reports flow alone, so no density can be computed",raw_processing/R/dataD.xlsx
+manchester,UTD19 part 23,limits on detector records,speed <= 105; density from flow and speed,physically invalid values,"raw_processing/R/dataD.xlsx, raw_processing/R/6m_clean_final.R"
+marseille,UTD19 part 24,limits on detector records,flow <= 3000; density from occupancy,physically invalid values,"raw_processing/R/dataD.xlsx, raw_processing/R/6m_clean_final.R"
+munich,UTD19 part 25,limits on detector records,density from occupancy,physically invalid values,"raw_processing/R/dataD.xlsx, raw_processing/R/6m_clean_final.R"
+paris,UTD19 part 26,limits on detector records,flow <= 3000; density from occupancy,physically invalid values,"raw_processing/R/dataD.xlsx, raw_processing/R/6m_clean_final.R"
+rotterdam,UTD19 part 27,limits on detector records,flow <= 3000; speed <= 105; density from flow and speed,physically invalid values,"raw_processing/R/dataD.xlsx, raw_processing/R/6m_clean_final.R"
+santander,UTD19 part 28,limits on detector records,flow <= 3000; occupancy <= 1; density from occupancy,physically invalid values,"raw_processing/R/dataD.xlsx, raw_processing/R/6m_clean_final.R"
+speyer,UTD19 part 29,limits on detector records,flow <= 3000; density from occupancy,physically invalid values,"raw_processing/R/dataD.xlsx, raw_processing/R/6m_clean_final.R"
+strasbourg,UTD19 part 30,limits on detector records,flow <= 3000; occupancy <= 1; density from occupancy,physically invalid values,"raw_processing/R/dataD.xlsx, raw_processing/R/6m_clean_final.R"
+stuttgart,UTD19 part 31,limits on detector records,occupancy <= 1; density from occupancy,physically invalid values,"raw_processing/R/dataD.xlsx, raw_processing/R/6m_clean_final.R"
+taipeh,UTD19 part 32,limits on detector records,flow <= 3000; density from occupancy,physically invalid values,"raw_processing/R/dataD.xlsx, raw_processing/R/6m_clean_final.R"
+torino,UTD19 part 33,limits on detector records,flow <= 3000; speed <= 105; density from flow and speed,physically invalid values,"raw_processing/R/dataD.xlsx, raw_processing/R/6m_clean_final.R"
+toronto,UTD19 part 34,limits on detector records,density from occupancy,physically invalid values,"raw_processing/R/dataD.xlsx, raw_processing/R/6m_clean_final.R"
+toulouse,UTD19 part 35,limits on detector records,flow <= 3000; density from occupancy,physically invalid values,"raw_processing/R/dataD.xlsx, raw_processing/R/6m_clean_final.R"
+utrecht,UTD19 part 36,dropped,,"reports flow alone, so no density can be computed",raw_processing/R/dataD.xlsx
+vilnius,UTD19 part 37,limits on detector records,density from occupancy,physically invalid values,"raw_processing/R/dataD.xlsx, raw_processing/R/6m_clean_final.R"
+wolfsburg,UTD19 part 38,limits on detector records,flow <= 3000; density from occupancy,physically invalid values,"raw_processing/R/dataD.xlsx, raw_processing/R/6m_clean_final.R"
+zurich,UTD19 part 39,limits on detector records,flow <= 3000; occupancy <= 1; density from occupancy,physically invalid values,"raw_processing/R/dataD.xlsx, raw_processing/R/6m_clean_final.R"
+WebTRIS places,grouping sites into places,places with fewer than 20 sites set aside,at least 20 sites with data,too few sites for a network; 99 places remain,raw_processing/python/pems_portland_seattle_webtris.py
+seattle,partition,partitioned into five k-means clusters of detectors; clusters 1 and 5 kept as seattle1 and seattle5,"k-means on coordinates, seed 42",spatial heterogeneity; why clusters 2 to 4 were not kept was not recorded,raw_processing/python/map_attributes.py
+portland,speed,detectors that report no speed left out of the network speed,17 of 69 detectors,they entered the averages as 0 km/h,scripts/build_per_lane_data.py
+"seattle1, seattle5",speed,speeds converted from mph,x 1.60934,the raw speeds are in mph,scripts/build_per_lane_data.py
+toulouse,occupancy factor,factor of 300 rather than 167,,"at 167 its free-flow speed would be 1.47 times the speed limit, against at most 1.12 among networks with measured speed",scripts/build_per_lane_data.py
+Cascade border data,choice of datasets,dropped,"363 detectors, 2015","the authors' note: unlike a road network because of the border crossings, and some detectors may be misidentified",authors' notes
+Winchester,"curve, after inspection",points above a flow limit removed,"flow <= 2750, in the source's own units",inconsistent points at high flow,raw_processing/python/postprocessing.py
+Winwick,"curve, after inspection",points above a flow limit removed,"flow <= 4500, in the source's own units",inconsistent points at high flow,raw_processing/python/postprocessing.py
+Wakefield,"curve, after inspection",points above a flow limit removed,"flow <= 3200, in the source's own units",inconsistent points at high flow,raw_processing/python/postprocessing.py
+Trafford,"curve, after inspection",points above a flow limit removed,"flow <= 4000, in the source's own units",inconsistent points at high flow,raw_processing/python/postprocessing.py
+Three_Rivers,"curve, after inspection",points above a flow limit removed,"flow <= 5050, in the source's own units",inconsistent points at high flow,raw_processing/python/postprocessing.py
+Thorney,"curve, after inspection",points above a flow limit removed,"flow <= 5650, in the source's own units",inconsistent points at high flow,raw_processing/python/postprocessing.py
+Stockport,"curve, after inspection",points above a flow limit removed,"flow <= 3550, in the source's own units",inconsistent points at high flow,raw_processing/python/postprocessing.py
+St_Albans,"curve, after inspection",points above a flow limit removed,"flow <= 4400, in the source's own units",inconsistent points at high flow,raw_processing/python/postprocessing.py
+South_Oxfordshire,"curve, after inspection",points above a flow limit removed,"flow <= 1900, in the source's own units",inconsistent points at high flow,raw_processing/python/postprocessing.py
+South_Ribble,"curve, after inspection",points above a flow limit removed,"flow <= 5900, in the source's own units",inconsistent points at high flow,raw_processing/python/postprocessing.py
+South_Cambridgeshire,"curve, after inspection",points above a flow limit removed,"flow <= 4000, in the source's own units",inconsistent points at high flow,raw_processing/python/postprocessing.py
+Sevenoaks,"curve, after inspection",points above a flow limit removed,"flow <= 3400, in the source's own units",inconsistent points at high flow,raw_processing/python/postprocessing.py
+Sandwell,"curve, after inspection",points above a flow limit removed,"flow <= 3900, in the source's own units",inconsistent points at high flow,raw_processing/python/postprocessing.py
+Sandbach,"curve, after inspection",points above a flow limit removed,"flow <= 4900, in the source's own units",inconsistent points at high flow,raw_processing/python/postprocessing.py
+Rochdale,"curve, after inspection",points above a flow limit removed,"flow <= 4000, in the source's own units",inconsistent points at high flow,raw_processing/python/postprocessing.py
+Preston,"curve, after inspection",points above a flow limit removed,"flow <= 4000, in the source's own units",inconsistent points at high flow,raw_processing/python/postprocessing.py
+Prestwich,"curve, after inspection",points above a flow limit removed,"flow <= 5900, in the source's own units",inconsistent points at high flow,raw_processing/python/postprocessing.py
+North_East_Derbyshire,"curve, after inspection",points above a flow limit removed,"flow <= 3550, in the source's own units",inconsistent points at high flow,raw_processing/python/postprocessing.py
+Middleton,"curve, after inspection",points above a flow limit removed,"flow <= 3950, in the source's own units",inconsistent points at high flow,raw_processing/python/postprocessing.py
+Metropolitan_Borough_of_Solihull,"curve, after inspection",points above a flow limit removed,"flow <= 3500, in the source's own units",inconsistent points at high flow,raw_processing/python/postprocessing.py
+Manchester2,"curve, after inspection",points above a flow limit removed,"flow <= 3860, in the source's own units",inconsistent points at high flow,raw_processing/python/postprocessing.py
+Godstone,"curve, after inspection",points above a flow limit removed,"flow <= 3500, in the source's own units",inconsistent points at high flow,raw_processing/python/postprocessing.py
+Bury,"curve, after inspection",points above a flow limit removed,"flow <= 4110, in the source's own units",inconsistent points at high flow,raw_processing/python/postprocessing.py
+Borough_of_Runnymede,"curve, after inspection",points above a flow limit removed,"flow <= 4900, in the source's own units",inconsistent points at high flow,raw_processing/python/postprocessing.py
+Test_Valley,"curve, after inspection",points removed,"flow <= 3000 and density <= 100, in the source's own units",inconsistent points,raw_processing/python/postprocessing.py
+Tameside,"curve, after inspection",points removed,"for 1000 < flow < 3000, keep a point only if its density <= 1.1 x the lowest density among points within 50 of its flow",inconsistent points on the congested side,raw_processing/python/postprocessing.py
+birmingham,"curve, after inspection",points removed,"not (flow < 375 and density > 16.1), in the source's own units",inconsistent points,raw_processing/python/postprocessing.py
+cagliari,"curve, after inspection",points removed,"not (flow < 200 and flow < 200 / 21 x (density - 8.5)), in the source's own units",time-varying events (Extended Data Fig. 1c),raw_processing/python/postprocessing.py
+darmstadt,"curve, after inspection",points removed,"not ((flow < 50 and density > 26) or (flow < 75 and density > 37.5)), in the source's own units; rule first keyed to the label essen, which then held Darmstadt's data",inconsistent points,raw_processing/python/postprocessing.py
+torino,"curve, after inspection",points removed,"flow <= 900, in the source's own units; rule first keyed to the label toronto, which then held Turin's data",inconsistent points,raw_processing/python/postprocessing.py
